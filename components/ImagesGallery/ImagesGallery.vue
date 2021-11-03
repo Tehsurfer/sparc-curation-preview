@@ -28,6 +28,9 @@ import MarkedMixin from '@/mixins/marked'
 
 import { baseName, extractSection } from '@/utils/common'
 
+import curationPreview from '@/curation/previews'
+
+// *NOTE* ImagesGallery is modified here to display previews for datasets
 export default {
   name: 'ImagesGallery',
   components: {
@@ -141,6 +144,7 @@ export default {
       deep: true,
       immediate: true,
       handler: function(scicrunchData) {
+        scicrunchData['curation-preview'] = curationPreview // add curation-preview to results
         let items = []
         const baseRoute = this.$router.options.base || '/'
         let datasetId = -1
@@ -252,6 +256,26 @@ export default {
               }
             })
           )
+        }
+
+        // Code below is temporary for curation preview:
+        if ('curation-preview' in scicrunchData) {
+          scicrunchData['curation-preview'].forEach(curation => {
+            if (curation.datasetId === datasetId) {
+              if (curation.type === 'plot') {
+                const id = curation.pennsieveId
+                const linkUrl = `${baseRoute}datasets/plotviewer?dataset_id=${datasetId}&dataset_version=${datasetVersion}&identifier=${id}`
+                let output = {
+                  id,
+                  title: curation.title,
+                  type: 'Plot',
+                  thumbnail: this.defaultPlotImg,
+                  link: linkUrl
+                }
+                items.push(output)
+              }
+            }
+          })
         }
 
         if ('abi-plot' in scicrunchData) {
