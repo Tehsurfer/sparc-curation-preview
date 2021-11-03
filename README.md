@@ -1,23 +1,29 @@
-# SPARC WEB APPLICATION
-This is the repository for the SPARC-Portal Web Application. The application is build using [Nuxt.js](https://nuxtjs.org) and [Vue.js](https://vuejs.org/).
+# sparc.science curation preview
+This repository is used as a preview for curated datasets yet to be published. 
 
-It depends on the SPARC-API which can be found [here](https://github.com/nih-sparc/sparc-api) 
+If you wish to add curations to preview the file can be found here:
+[curation/previews.js](https://github.com/Tehsurfer/sparc-curation-preview/blob/curation-publish-preview/curation/previews.js)
 
-## Build Setup
+Contact me and I will add you as a collaborator.
 
-``` bash
-# install dependencies
-$ yarn install
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## How to make a curation
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+HOW TO USE:
+Add/replace the listings below in the form
+```javascript
+//  {
+//    datasetId: <discover id>,
+//    type: <plot/scaffold/image/flatmap>,
+//    title: <title to show in gallery>,
+//    pennsieveId: <pennsieve identifier>
+//  }
 ```
+Additional notes:
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Pennsieve identifiers can be found by clicking on the file name in app.pennsieve.io
+
+
+  ![image](https://user-images.githubusercontent.com/37255664/140044758-4e6c00e2-f64c-45b3-8b64-f8fc39956b88.png)
+  
+Only plots are currently supported
