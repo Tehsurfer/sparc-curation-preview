@@ -1,6 +1,9 @@
 # sparc.science curation preview
 This repository is used as a preview for curated datasets yet to be published. 
 
+Preview site can be viewed here:
+https://sparc-publish-preview.herokuapp.com/
+
 If you wish to add curations to preview the file can be found here:
 [curation/previews.js](https://github.com/Tehsurfer/sparc-curation-preview/blob/curation-publish-preview/curation/previews.js)
 
@@ -17,7 +20,7 @@ Add/replace the listings below in the form
 //    type: <plot/scaffold/image/flatmap>,
 //    title: <title to show in gallery>,
 //    pennsieveId: <pennsieve identifier>
-//  }
+//  },
 ```
 Additional notes:
 
