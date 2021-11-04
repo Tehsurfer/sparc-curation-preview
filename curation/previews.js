@@ -34,5 +34,11 @@ export default [
     type: 'plot',
     title: 'this-is-a-test-3',
     pennsieveId: 'package:d0092cc3-aa08-4e18-a2bd-d66cb6736944'
+  },
+  {
+    datasetId: 29,
+    type: 'plot',
+    title: 'HB-ICN-NegDDCT',
+    pennsieveId: 'package:975df3ca-ff23-4c50-829b-b28eba4f423a'
   }
 ]
