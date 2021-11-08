@@ -40,5 +40,11 @@ export default [
     type: 'plot',
     title: 'HB-ICN-NegDDCT',
     pennsieveId: 'package:975df3ca-ff23-4c50-829b-b28eba4f423a'
+  },
+  {
+    datasetId: 118,
+    type: 'plot',
+    title: 'PR1705_Negddct',
+    pennsieveId: 'package:5febabcf-6e49-4d6c-9163-d6e04fc811f8'
   }
 ]
