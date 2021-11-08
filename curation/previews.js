@@ -106,5 +106,35 @@ export default [
     type: 'plot',
     title: 'RAGP_4subs_raw_Ct',
     pennsieveId: 'package:ac7c976a-459a-4d32-ae43-09cd89340480'
+  },
+    {
+    datasetId: 115,
+    type: 'plot',
+    title: 'RAGP_4subs_negddct_matrix',
+    pennsieveId: 'package:ebb762ff-7c4a-41ac-ad45-c8044e499832'
+  },
+    {
+    datasetId: 115,
+    type: 'plot',
+    title: 'RAGP_4subs_raw_Ct',
+    pennsieveId: 'package:a6c01a56-30f0-4156-b4d1-758bc8e3f7b1'
+  },
+    {
+    datasetId: 115,
+    type: 'plot',
+    title: 'RNAseq_PR1643 Normalised Gene Counts',
+    pennsieveId: 'package:5e2789e7-746c-4b38-abd1-f979dedc33ff'
+  },
+    {
+    datasetId: 115,
+    type: 'plot',
+    title: 'Genes 60% Expression Across All RAGP',
+    pennsieveId: 'package:8b9aa0e6-d79d-48fe-913b-fdbf08dcda88'
+  },
+    {
+    datasetId: 115,
+    type: 'plot',
+    title: 'Neuronally Enriched GTEx Genes in our Data',
+    pennsieveId: 'package:30617cbc-f321-4d4c-ad01-d0dc014b7b14'
   }
 ]
