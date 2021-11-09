@@ -328,5 +328,287 @@ export default [
     type: 'plot',
     title: '19_1016',
     pennsieveId: 'package:3b88c0d9-d1b4-424c-9f0d-d8a0a4b8b182'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Abdomen Push Trial',
+    pennsieveId: 'package:d5379bd9-79cf-48d9-b320-9ed52c598ba0'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'trial7 Second Artificial Stool',
+    pennsieveId: 'package:57eb1228-312f-4fb7-8c43-4163ab1e16a3'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'trial2 Stool Calibration',
+    pennsieveId: 'package:257c03ab-96dc-4de7-8415-6f8a92630202'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'trial3 Insertion',
+    pennsieveId: 'package:f139631b-c30d-4c66-901a-f12af8409242'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'trial4 Insertion',
+    pennsieveId: 'package:316836dc-c247-4663-b1de-544083649b78'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'trial8 New Pressure Test',
+    pennsieveId: 'package:16186ca4-f9a5-437c-a2b7-483046f77488'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'trial5 Artificial Stool',
+    pennsieveId: 'package:bd1ff1e2-6176-43aa-be57-1e9f3a152629'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'trial6 Removal of First Artifical Stool',
+    pennsieveId: 'package:fbbc8f5c-9cbe-4d1f-b225-702620d14578'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'posthoc Calibration',
+    pennsieveId: 'package:98745016-ff1d-4c47-81da-d3d1a8940ff3'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'posthoc ConducCalib',
+    pennsieveId: 'package:ffc0fd0c-76a6-4d92-b9f3-e68a50575a39'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Ian PressCalib2',
+    pennsieveId: 'package:7d1ff231-a809-4207-97b4-508b9aec021e'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Laparotomy Pressure Trial',
+    pennsieveId: 'package:8c450dda-86e5-4628-8fd6-bed662dcaf4f'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Laparotomy pressure trial - Stool Movement',
+    pennsieveId: 'package:3735b5eb-fd8e-468e-a5f8-a8a0cadee038'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Laparatomy pressure trial - Abdomen Closed',
+    pennsieveId: 'package:5af8bc1a-ec3e-46f3-a655-8c67c45254e0'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Laparotomy pressure trial - Empty out stool HC Stool',
+    pennsieveId: 'package:99c5d69e-016a-4b1b-97c3-f97d8d0ee714'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Laprotomy pressure trial - Empty out stool 2',
+    pennsieveId: 'package:a1e027a3-d208-454d-ae7e-ff3272c53e46'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Pre-insert Calibration',
+    pennsieveId: 'package:ea199df6-fc25-4570-b204-2f2803125c49'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Artificial Stool Volume',
+    pennsieveId: 'package:9561aa4c-55f8-4775-b4e5-a068f66658bc'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Balloon Insertion',
+    pennsieveId: 'package:42a25127-27e7-4314-9388-7f0325fed1cb'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Put Artificial Stool Volume Inside Stool Over Sensor',
+    pennsieveId: 'package:f4e9193d-0bef-4877-adea-21dab30303bb'
+  }, 
+    {
+    datasetId: 114,
+    type: 'plot',
+    title: 'Put Artificial Stool Volume Inside Stool Over Sensor Advancing',
+    pennsieveId: 'package:f4c935ca-f139-41d0-a0e3-239d2a6af679'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Ses1 Cat1 Fill1 9-02-50 AM',
+    pennsieveId: 'package:b5811ced-55fb-4c8c-9520-511d7ad09617'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Ses1 Cat1 Fill2 11-45-38 AM',
+    pennsieveId: 'package:945be1f0-31b2-4ea0-a9a0-b16042b126fb'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Ses1 Cat1 Fill2 11-57-18 AM',
+    pennsieveId: 'package:4e8dac59-6cdb-40cf-a010-a3239366b9aa'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Ses1 Cat1 Fill1 9-18-30 AM',
+    pennsieveId: 'package:e6c91af4-23dc-4f42-85ce-48c790f6b508'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Ses1 Cat1 PostFill Empty Bladder',
+    pennsieveId: 'package:d0e6adb0-5dc4-44e0-9750-0a35fce7a306'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Ses2 Cat1 Fill1',
+    pennsieveId: 'package:c0f4bb9c-69cd-41f7-be80-d1d50f85b5ff'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Ses1 Cat2 Fill2',
+    pennsieveId: 'package:423cfa79-e587-4c75-9de1-c782f5279d7f'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Ses3 Cat1 Fill1',
+    pennsieveId: 'package:92a240cf-398d-4be1-b8a7-460f33bd2c51'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Ses3 Cat1 Fill2',
+    pennsieveId: 'package:16a68a7b-43b7-44df-b6cd-9bceeb672fae'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat2 Surgery1 postSurgery Fill1',
+    pennsieveId: 'package:27a5ab42-4b1c-4b9c-90c2-0019e7f8a871'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat2 Surgery1 preSurgery Fill1',
+    pennsieveId: 'package:3e2d7ccb-5a09-4603-8963-2740021b1ee8'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat2.2 Surgery2 Fill1',
+    pennsieveId: 'package:4bc1a212-4181-4b90-8284-853dfa96fbfe'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat2.2 Surgery2 Fill2',
+    pennsieveId: 'package:1e5068f8-713b-41d3-8971-1e88d8ea9c6a'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat2.3 Surgery3 Fill1',
+    pennsieveId: 'package:19694b51-ece7-4684-8be1-25962a1aa905'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat2.3 Surgery3 Fill2',
+    pennsieveId: 'package:2f9dc2ff-6cb8-4f42-b722-257a93802672'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat3.1 Surgery1 PreOp Fill1',
+    pennsieveId: 'package:1c17c682-e2b9-4133-8b85-8514a34a3b9b'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat3.1 Surgery1 PostOp Fill1',
+    pennsieveId: 'package:27d06ed4-9213-4998-b3f1-8f9e3838a78c'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat3.2 Surgery2 Fill1',
+    pennsieveId: 'package:77b73911-cb68-47cd-80ab-3a75faab8bc1'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat3.2 Surgery2 Fill2',
+    pennsieveId: 'package:8bdd898e-9651-4004-9552-b62e4320e941'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat3.3 PostOp Day 30 Fill1',
+    pennsieveId: 'package:53f7411f-7dec-4f87-ae77-e2fa3bee15f3'
+  }, 
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'ChronicCat 1.1.1',
+    pennsieveId: 'package:75fe41ad-61a4-4265-bda2-980dfb961338'
+  },  
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'ChronicCat 1.1.2',
+    pennsieveId: 'package:81b6f432-4521-4bc9-87a0-4f7cfd810676'
+  },  
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat4.2 Fill1',
+    pennsieveId: 'package:e2a419e6-b32c-415f-b224-52e828510229'
+  },  
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat4.2 Fill2',
+    pennsieveId: 'package:ccb90d56-1482-4085-b3e0-9ae1cd2e7ae1'
+  },  
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat 4.3 Fill1',
+    pennsieveId: 'package:69cfce9d-3a32-4f07-86e9-3eefae9f9852'
+  },  
+    {
+    datasetId: 145,
+    type: 'plot',
+    title: 'Cat4.3 Fill2',
+    pennsieveId: 'package:75f8aff0-036d-43da-b5e4-f5529f500eb2'
   }
 ]
