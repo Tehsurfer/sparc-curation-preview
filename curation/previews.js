@@ -130,11 +130,41 @@ export default [
     type: 'plot',
     title: 'Genes 60% Expression Across All RAGP',
     pennsieveId: 'package:8b9aa0e6-d79d-48fe-913b-fdbf08dcda88'
-  },
+  }, 
     {
     datasetId: 115,
     type: 'plot',
     title: 'Neuronally Enriched GTEx Genes in our Data',
     pennsieveId: 'package:30617cbc-f321-4d4c-ad01-d0dc014b7b14'
+  }, 
+    {
+    datasetId: 26,
+    type: 'plot',
+    title: 'Pig-820 Nodose-002 Blood gases',
+    pennsieveId: 'package:3a85cca5-9df8-46d8-9a85-3c3deb2524b8'
+  }, 
+    {
+    datasetId: 26,
+    type: 'plot',
+    title: 'Pig-820 Nodose-002 Hemodynamics',
+    pennsieveId: 'package:64ca9585-91a7-405d-ac1a-5db641097085'
+  }, 
+    {
+    datasetId: 26,
+    type: 'plot',
+    title: 'Pig013 ICNS15 Blood gases',
+    pennsieveId: 'package:225a8f4d-1e42-4f6b-9cfb-7c1c92adf55d'
+  }, 
+    {
+    datasetId: 26,
+    type: 'plot',
+    title: 'Pig013 ICNS15 Hemodynamics',
+    pennsieveId: 'package:ecd9693d-d6aa-43f6-9371-0c693aab445c'
+  }, 
+    {
+    datasetId: 26,
+    type: 'plot',
+    title: 'Pig47 Stellate Stim Metadata Physiology Hemodynamics',
+    pennsieveId: 'package:44f1433d-d60a-4dc7-8382-4399088f0fda'
   }
 ]
