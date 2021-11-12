@@ -1096,5 +1096,155 @@ export default [
     type: 'plot',
     title: 'ISP_20181010_G1',
     pennsieveId: 'package:3e514c69-0368-4c8b-b6f4-1bd7e5611fe2'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20181127_G3',
+    pennsieveId: 'package:598170e8-414b-40f4-99e8-08cf0b54b49c'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190226_G2',
+    pennsieveId: 'package:648bea83-be18-4ada-9e7b-c80b0b3af329'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190228_G4',
+    pennsieveId: 'package:03e257bd-adbc-4de8-a9ae-05ad77c564f8'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190306_G1',
+    pennsieveId: 'package:2cd902fb-bf35-40ee-9a46-ab4879b3ab31'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190306_G2',
+    pennsieveId: 'package:6a0283f9-0dd4-4690-a46d-c9cd7a95e2b2'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190306_G3',
+    pennsieveId: 'package:d55d41c9-9e86-4cb3-912e-e646fcf6a882'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190312_G1',
+    pennsieveId: 'package:86656ef9-d6c4-4207-b27c-65821820e203'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190312_G3',
+    pennsieveId: 'package:d271783e-0dca-4988-b514-ca29a1d114f3'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190312_G4',
+    pennsieveId: 'package:68fa1138-fcce-440a-9759-d2fdeb464abc'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190320_G1',
+    pennsieveId: 'package:d4ff0303-025e-40b2-8211-63ebc610c29c'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190326_G2',
+    pennsieveId: 'package:d609f383-a0f0-4ffd-87f8-f545e9796087'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190326_G3',
+    pennsieveId: 'package:63af01a0-b4ae-4166-b9d0-f534dbef37d6'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190408_G1',
+    pennsieveId: 'package:d7eaa3bf-6381-454a-9f23-7d100f764805'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190806_G2',
+    pennsieveId: 'package:e8fa1ae0-3864-4841-83dc-eefbe018a9ff'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190812_G1',
+    pennsieveId: 'package:436925ef-16c6-4d67-81e4-b6eb2fc26a25'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190826_G1',
+    pennsieveId: 'package:e537e3cc-1adb-4a92-9baa-8128ff356e86'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190828_G1',
+    pennsieveId: 'package:898571db-fb0f-42c1-bd8d-699e213dab16'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190828_G2',
+    pennsieveId: 'package:eb336031-2417-4912-9ece-d34df15449d1'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190904_G1',
+    pennsieveId: 'package:cc2f84c3-da9c-4302-8f10-777803e10602'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190916_2_G1',
+    pennsieveId: 'package:54005d0a-43c3-4c68-a31d-d0e216440ac4'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190912_G1',
+    pennsieveId: 'package:b915fadb-9553-40e6-98e3-ce6d9ca98c5e'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190912_G2',
+    pennsieveId: 'package:6e7829fd-6c73-49e6-bf84-47820516ebee'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190913_G1',
+    pennsieveId: 'package:95e8a7f7-3934-4a27-ae8a-b403f6e6bbf7'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190913_G2',
+    pennsieveId: 'package:10cf9d00-3446-4212-8dd2-9d29696eca6e'
+  },
+    {
+    datasetId: 124,
+    type: 'plot',
+    title: 'ISP_20190916_G1',
+    pennsieveId: 'package:e06defa6-2cf0-477d-973d-afee6fda77c9'
   }
 ]
