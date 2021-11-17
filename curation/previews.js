@@ -1246,5 +1246,77 @@ export default [
     type: 'plot',
     title: 'ISP_20190916_G1',
     pennsieveId: 'package:e06defa6-2cf0-477d-973d-afee6fda77c9'
+  },
+    {
+    datasetId: 153,
+    type: 'plot',
+    title: 'Rectal temperature change',
+    pennsieveId: 'package:93869d71-fc32-43b3-8952-2a9d5920f235'
+  },
+    {
+    datasetId: 153,
+    type: 'plot',
+    title: 'Rectal temperature data',
+    pennsieveId: 'package:9cc575d8-287c-4384-89e0-514ea46182d0'
+  },
+    {
+    datasetId: 153,
+    type: 'plot',
+    title: 'iBAT temperature change',
+    pennsieveId: 'package:a49f708c-341d-4db0-80e2-d12970b671f9'
+  },
+    {
+    datasetId: 153,
+    type: 'plot',
+    title: 'iBAT temperature data',
+    pennsieveId: 'package:b0ea3d0b-2649-422c-afe8-2ebccd432c69'
+  },
+    {
+    datasetId: 149,
+    type: 'plot',
+    title: 'L1 10Hz Stimulation, Afferent fibres',
+    pennsieveId: 'package:361648a2-2e9c-496e-aca8-3b04c4b668bf'
+  },
+    {
+    datasetId: 149,
+    type: 'plot',
+    title: 'L1 10Hz Stimulation, Afferent and Efferent fibres',
+    pennsieveId: 'package:363e6489-d3f5-49ca-87a7-1646265d1582'
+  },
+    {
+    datasetId: 149,
+    type: 'plot',
+    title: 'L1 30Hz Stimulation, Afferent fibres',
+    pennsieveId: 'package:4c176c6a-43a1-4ecf-b443-26730212b64a'
+  },
+    {
+    datasetId: 149,
+    type: 'plot',
+    title: 'L1 30Hz Stimulation, Afferent and Efferent fibres',
+    pennsieveId: 'package:487cd760-3bb4-434f-b94d-1a934fcd118c'
+  },
+    {
+    datasetId: 149,
+    type: 'plot',
+    title: 'T12 10Hz Stimulation, Afferent Fibres',
+    pennsieveId: 'package:5c12696c-f0b3-478a-abc3-218675765285'
+  },
+    {
+    datasetId: 149,
+    type: 'plot',
+    title: 'T12 10Hz Stimulation, Afferent and Efferent fibres',
+    pennsieveId: ''
+  },
+    {
+    datasetId: 149,
+    type: 'plot',
+    title: 'T12 30Hz Stimulation, Afferent fibres',
+    pennsieveId: 'package:b145c58b-d444-4022-a4a3-c30ff5184b41'
+  },
+    {
+    datasetId: 149,
+    type: 'plot',
+    title: 'T12 30Hz Stimulation, Afferent and Efferent fibres',
+    pennsieveId: 'package:4479e1e1-263f-4ab1-b5d8-a61d4358e13a'
   }
 ]
