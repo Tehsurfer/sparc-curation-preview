@@ -67,51 +67,66 @@ export default {
     const scicrunchResponse = await scicrunch.getDatasetInfoFromObjectIdentifier(
       identifier
     )
-    const scicrunchData = scicrunchResponse.data.result[0]
-    const matchedData = scicrunchData['abi-plot'].filter(function(el) {
-      return el.identifier === identifier
-    })
+    console.log('data.result', scicrunchResponse.data.result[0])
+    const firstResult = scicrunchResponse.data.result[0]
 
-    const plot_info = matchedData[0]
-    const plot_annotation = plot_info.datacite
-    const file_path = `${route.query.dataset_id}/${route.query.dataset_version}/files/${plot_info.dataset.path}`
-    const source_url_response = await discover.downloadLink(file_path)
-    let source_url = source_url_response.data
-    if (process.env.portal_api === 'http://localhost:8000') {
-      source_url = `${process.env.portal_api}/s3-resource/${file_path}`
-    }
-
-    const metadata = JSON.parse(
-      plot_annotation.supplemental_json_metadata.description
-    )
-
-    let supplemental_data = []
-    if (plot_annotation.isDescribedBy) {
-      let tmp_path = plot_annotation.isDescribedBy.path
-      // Hack to fix path entry.
-      if (tmp_path === '../derivative/sub-1/subject1_header.txt') {
-        tmp_path = 'derivative/sub-1/sam-1/subject1_header.txt'
-      }
-
-      const supplemental_file_path = `${route.query.dataset_id}/${route.query.dataset_version}/files/${tmp_path}`
-
-      const supplemental_url_response = await discover.downloadLink(
-        supplemental_file_path
-      )
-      let supplemental_url = supplemental_url_response.data
+    if ('abi-plot' in firstResult){
+      console.log('found abi plot')
+      const plot_info = firstResult
+      const plot_annotation = plot_info.datacite
+      const file_path = `${route.query.dataset_id}/${route.query.dataset_version}/files/${plot_info.dataset.path}`
+      const source_url_response = await discover.downloadLink(file_path)
+      let source_url = source_url_response.data
       if (process.env.portal_api === 'http://localhost:8000') {
-        supplemental_url = `${process.env.portal_api}/s3-resource/${supplemental_file_path}`
+        source_url = `${process.env.portal_api}/s3-resource/${file_path}`
       }
-      supplemental_data.push({
-        url: supplemental_url
-      })
+
+      const metadata = JSON.parse(
+        plot_annotation.supplemental_json_metadata.description
+      )
+    
+
+      let supplemental_data = []
+      if (plot_annotation.isDescribedBy) {
+        let tmp_path = plot_annotation.isDescribedBy.path
+        // Hack to fix path entry.
+        if (tmp_path === '../derivative/sub-1/subject1_header.txt') {
+          tmp_path = 'derivative/sub-1/sam-1/subject1_header.txt'
+        }
+
+        const supplemental_file_path = `${route.query.dataset_id}/${route.query.dataset_version}/files/${tmp_path}`
+
+        const supplemental_url_response = await discover.downloadLink(
+          supplemental_file_path
+        )
+        let supplemental_url = supplemental_url_response.data
+        if (process.env.portal_api === 'http://localhost:8000') {
+          supplemental_url = `${process.env.portal_api}/s3-resource/${supplemental_file_path}`
+        }
+        supplemental_data.push({
+          url: supplemental_url
+        })
+      }
+      return {
+        source_url,
+        metadata,
+        supplemental_data
+      }
+    } else {
+      console.log('calling', `${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${identifier}`)
+      let source_url = await fetch(`${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${identifier}`).then(d =>d.json()).then(d=>d.url)
+      
+      let supplemental_data = []
+      // let supplemental_url = fetch(`${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${identifier}`)
+      let metadata = {version: '1.2.0', type: 'plot', attrs: {style: 'heatmap', columnHeaderIndex: 1, columnHeaderSize: 3}}
+      console.log('source', source_url, metadata)
+      // let source_url = source_url_response.data.result[0].url
+      return {source_url, metadata, supplemental_data}
     }
 
-    return {
-      source_url,
-      metadata,
-      supplemental_data
-    }
+    
+
+
   },
 
   data: () => {

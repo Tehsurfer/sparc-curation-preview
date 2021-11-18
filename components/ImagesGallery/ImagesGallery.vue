@@ -273,6 +273,7 @@ export default {
                   link: linkUrl
                 }
                 items.push(output)
+                this.getCuratedThumbnail(items, id, 'N:package:1562c7b3-03ce-4ad5-86c2-6bdef0f6b310', )
               }
             }
           })
@@ -433,6 +434,20 @@ export default {
             return Promise.reject('Maximum iterations reached.')
           }
         )
+    },
+    getCuratedThumbnail(items, id, thumbnailId) {
+      console.log('in thumbnail calling: ', `${process.env.BF_DOWNLOAD_API}/imageFromPackageId/${thumbnailId}`)
+      fetch(`${process.env.BF_DOWNLOAD_API}/imageFromPackageId/${thumbnailId}`).then(d =>d.json()).then(d=>{
+        let source_url = d.url
+        console.log('got source url:', source_url)
+        fetch(source_url).then(rep=>rep.json()).then(img => {
+          console.log('resp', img)
+          let item = items.find(x => x.id === id)
+          this.scaleThumbnailImage(item, {
+            data: img
+          })
+        })
+      })
     },
     goNext() {
       if (this.currentIndex < this.imageCount - 1) {

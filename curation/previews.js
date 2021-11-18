@@ -32,8 +32,8 @@ export default [
   {
     datasetId: 141,
     type: 'plot',
-    title: 'this-is-a-test-3',
-    pennsieveId: 'package:d0092cc3-aa08-4e18-a2bd-d66cb6736944'
+    title: 'this-is-a-test-jesse-uploaded to pennsieve',
+    pennsieveId: 'package:193ccb0b-10dc-4084-aead-59ff0c4e3195'
   },
   {
     datasetId: 29,

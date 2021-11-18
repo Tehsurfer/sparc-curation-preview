@@ -176,6 +176,11 @@
           :dataset-biolucida="biolucidaImageData"
           :dataset-scicrunch="scicrunchData"
         />
+        <images-gallery
+          v-show="activeTab === 'curation'"
+          :markdown="markdown.markdownTop"
+          :dataset-scicrunch="previewData"
+        />
       </detail-tabs>
     </div>
     <download-dataset
@@ -231,6 +236,8 @@ import createClient from '@/plugins/contentful.js'
 import biolucida from '@/services/biolucida'
 import scicrunch from '@/services/scicrunch'
 import CitationDetails from '~/components/CitationDetails/CitationDetails.vue'
+
+import curationPreview from '@/curation/previews'
 
 const client = createClient()
 
@@ -349,6 +356,7 @@ const getThumbnailData = async (datasetDoi, datasetId, datasetVersion) => {
       biolucidaImageData['discover_dataset_version'] = datasetVersion
     }
     if (scicrunch_response.data.result.length > 0) {
+      console.log('we got a hit!!!')
       scicrunchData = scicrunch_response.data.result[0]
       scicrunchData.discover_dataset = {
         id: Number(datasetId),
@@ -371,9 +379,38 @@ const getThumbnailData = async (datasetDoi, datasetId, datasetVersion) => {
       }
     }
   } catch (e) {
-    return {
-      biolucidaImageData: {},
-      scicrunchData: {}
+    try {
+      const [scicrunch_response] = await Promise.all([
+        scicrunch.getDatasetInfoFromDOI(datasetDoi)
+      ])
+      if (scicrunch_response.data.result.length > 0) {
+        console.log('we got a hit!!!')
+        scicrunchData = scicrunch_response.data.result[0]
+        scicrunchData.discover_dataset = {
+          id: Number(datasetId),
+          version: datasetVersion
+        }
+
+        // Check for flatmap neuron data
+        if (scicrunchData.organs) {
+          let flatmapData = [{}]
+          for (let i in scicrunchData.organs) {
+            if (flatmapData.length <= i) {
+              flatmapData.push({})
+            }
+            flatmapData[i].taxo = Uberons.species['rat']
+            flatmapData[i].uberonid = scicrunchData.organs[i].curie
+            flatmapData[i].id = datasetId
+            flatmapData[i].version = datasetVersion
+          }
+          scicrunchData['flatmaps'] = flatmapData
+        }
+      }
+    } catch (e) {
+      return {
+        biolucidaImageData: {},
+        scicrunchData: {}
+      }
     }
   }
   return {
@@ -484,7 +521,8 @@ export default {
       ],
       subtitles: [],
       ctfDatasetFormatInfoPageId: process.env.ctf_dataset_format_info_page_id,
-      isVersionModalVisible: false
+      isVersionModalVisible: false,
+      previewData: {}
     }
   },
 
@@ -809,6 +847,29 @@ export default {
     }
   },
   methods: {
+    checkForCuratedData: async function() {
+      let scicrunch_response = await scicrunch.getDatasetInfoFromDOI(this.datasetDoi)
+      let scicrunchData = undefined
+      if (scicrunch_response.data.result.length > 0) {
+        console.log('we got a hit in check for curated data!!!')
+        let scicrunchData = scicrunch_response.data.result[0]
+        scicrunchData.discover_dataset = {
+          id: Number(this.datasetId),
+          version: this.datasetVersion
+        }
+      }
+      let datasetCurations = curationPreview.filter(d => d.datasetId === this.datasetId)
+      if (datasetCurations) {
+        this.previewData = datasetCurations
+        this.tabs.push({ label: 'Curation preview', type: 'curations' })
+        if(scicrunchData){
+          scicrunchData['curation-preview'] = datasetCurations
+          this.scicrunchData = scicrunchData
+        }
+      }
+
+    },
+
     /**
      * Sets active tab
      * @param {String} activeLabel
@@ -924,6 +985,9 @@ export default {
     closeVersionModal: function() {
       this.isVersionModalVisible = false
     }
+  },
+  mounted: function(){
+    this.checkForCuratedData()
   },
 
   head() {
