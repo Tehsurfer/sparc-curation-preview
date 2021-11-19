@@ -9,6 +9,9 @@
 //    type: <plot/scaffold/image/flatmap>,
 //    title: <title to show in gallery>,
 //    pennsieveId: <pennsieve identifier>
+//    metadata: <metadata for plots>,
+//    thumbnailId: <pennsieve id of thumbnail for image gallery>, ::optional::
+//    additionalId: 'package:279cfa72-951b-407c-bde0-5de33317cf35' ::optional:: (only used for timeseries data)
 //  }
 
 // Notes for help:
@@ -20,8 +23,20 @@ export default [
   {
     datasetId: 141,
     type: 'plot',
+    metadata: {
+      version: '1.2.0',
+      type: 'plot',
+      attrs: {
+        style: 'timeseries',
+        delimiter: 'tab',
+        'y-axes-columns': [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+        'no-header': true
+      }
+    },
     title: 'this-is-a-test',
-    pennsieveId: 'package:615a5a08-f2f4-4621-a151-ba1271697aae'
+    pennsieveId: 'package:615a5a08-f2f4-4621-a151-ba1271697aae',
+    thumbnailId: 'package:279cfa72-951b-407c-bde0-5de33317cf35',
+    additionalId: 'package:279cfa72-951b-407c-bde0-5de33317cf35'
   },
   {
     datasetId: 141,

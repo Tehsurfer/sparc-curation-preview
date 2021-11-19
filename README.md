@@ -20,7 +20,10 @@ Add/replace the listings below in the form
 //    type: <plot/scaffold/image/flatmap>,
 //    title: <title to show in gallery>,
 //    pennsieveId: <pennsieve identifier>
-//  },
+//    metadata: <metadata for plots>,
+//    thumbnailId: <pennsieve id of thumbnail for image gallery>, ::optional::
+//    additionalId: 'package:279cfa72-951b-407c-bde0-5de33317cf35' ::optional:: (only used for timeseries data)
+//  }
 ```
 Additional notes:
 
