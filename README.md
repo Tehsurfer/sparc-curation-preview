@@ -33,3 +33,15 @@ Pennsieve identifiers can be found by clicking on the file name in app.pennsieve
   ![image](https://user-images.githubusercontent.com/37255664/140044758-4e6c00e2-f64c-45b3-8b64-f8fc39956b88.png)
   
 Only plots are currently supported
+
+
+## How to run locally
+1. clone this repo and `yarn install` `yarn dev`
+2. clone https://github.com/Tehsurfer/BlackfynnToScaffold and run on port `6768`
+3. Check you have env variables for `PENNSIEVE_API_SECRET` and `PENNSIEVE_API_TOKEN` that have access to sparc-curation data (DM me if needed)
+4. Run any recent sparc-api on port 8000
+
+And you should be good to go!
+
+Refer here for finding curations:
+[curation/previews.js](https://github.com/Tehsurfer/sparc-curation-preview/blob/curation-publish-preview/curation/previews.js)
