@@ -52,6 +52,8 @@ import DetailTabs from '@/components/DetailTabs/DetailTabs.vue'
 import scicrunch from '@/services/scicrunch'
 import discover from '@/services/discover'
 
+import curations from '@/curation/previews'
+
 export default {
   name: 'PlotViewerPage',
 
@@ -69,6 +71,35 @@ export default {
     )
     console.log('data.result', scicrunchResponse.data.result[0])
     const firstResult = scicrunchResponse.data.result[0]
+
+    // Check for curations
+    let foundCuration = false
+    let curation = undefined
+    curations.forEach(cur => {
+      if (cur.pennsieveId === identifier){
+        foundCuration = true
+        curation = cur
+      }
+    })
+
+    // get temporary curation urls if they exist
+    if (foundCuration){
+      console.log('calling curation', `${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${identifier}`)
+
+      console.log('curation', curation)
+
+      let source_url = await fetch(`${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${identifier}`).then(d =>d.json()).then(d=>d.url)
+      let supplemental_data = []
+
+      if (curation.additionalId){
+        let supplemental_url = await fetch(`${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${curation.additionalId}`).then(d =>d.json()).then(d=>d.url)
+        supplemental_data = supplemental_url
+      }
+      let metadata = curation.metadata
+      console.log('source', source_url, metadata, supplemental_data)
+      // let source_url = source_url_response.data.result[0].url
+      return {source_url, metadata, supplemental_data}
+    }
 
     if ('abi-plot' in firstResult){
       console.log('found abi plot')
@@ -112,17 +143,7 @@ export default {
         metadata,
         supplemental_data
       }
-    } else {
-      console.log('calling', `${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${identifier}`)
-      let source_url = await fetch(`${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${identifier}`).then(d =>d.json()).then(d=>d.url)
-      
-      let supplemental_data = []
-      // let supplemental_url = fetch(`${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${identifier}`)
-      let metadata = {version: '1.2.0', type: 'plot', attrs: {style: 'heatmap', columnHeaderIndex: 1, columnHeaderSize: 3}}
-      console.log('source', source_url, metadata)
-      // let source_url = source_url_response.data.result[0].url
-      return {source_url, metadata, supplemental_data}
-    }
+    } 
 
     
 

@@ -24,7 +24,7 @@ export default [
     datasetId: 141,
     type: 'plot',
     metadata: {
-      version: '1.2.0',
+      version: '1.1.0',
       type: 'plot',
       attrs: {
         style: 'timeseries',
@@ -35,25 +35,14 @@ export default [
     },
     title: 'this-is-a-test',
     pennsieveId: 'package:615a5a08-f2f4-4621-a151-ba1271697aae',
-    thumbnailId: 'package:279cfa72-951b-407c-bde0-5de33317cf35',
-    additionalId: 'package:279cfa72-951b-407c-bde0-5de33317cf35'
-  },
-  {
-    datasetId: 141,
-    type: 'plot',
-    title: 'this-is-a-test-2',
-    pennsieveId: 'package:615a5a08-f2f4-4621-a151-ba1271697aae'
-  },
-  {
-    datasetId: 141,
-    type: 'plot',
-    title: 'this-is-a-test-jesse-uploaded to pennsieve',
-    pennsieveId: 'package:193ccb0b-10dc-4084-aead-59ff0c4e3195'
+    thumbnailId: 'package:9aee14c8-8244-42d9-ad6a-63b7ecc19e6f',
+    additionalId: 'package:b092a8c0-c684-4bb6-8383-f9de478473e8'
   },
   {
     datasetId: 29,
     type: 'plot',
     title: 'HB-ICN-NegDDCT',
+    metadata: {version: '1.2.0', type: 'plot', attrs: {style: 'heatmap', columnHeaderIndex: 1, columnHeaderSize: 3}},
     pennsieveId: 'package:975df3ca-ff23-4c50-829b-b28eba4f423a'
   },
   {
