@@ -147,7 +147,9 @@ export default [
     datasetId: 26,
     type: 'plot',
     title: 'Pig-820 Nodose-002 Blood gases',
-    pennsieveId: 'package:3a85cca5-9df8-46d8-9a85-3c3deb2524b8'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:3a85cca5-9df8-46d8-9a85-3c3deb2524b8',
+    thumbnailId: 'package:97059e93-7c8e-4823-b8fc-5546e1244805'
   },
   {
     datasetId: 26,
