@@ -56,12 +56,14 @@ export default [
     datasetId: 139,
     type: 'plot',
     title: 'Average per strain',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
     pennsieveId: 'package:b220ef4d-deba-4541-a707-315340c6eb46'
   },
   {
     datasetId: 139,
     type: 'plot',
     title: 'Differential expression WistarVsSHR',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
     pennsieveId: 'package:bfd00749-f476-4859-868a-672275745f14'
   },
   {

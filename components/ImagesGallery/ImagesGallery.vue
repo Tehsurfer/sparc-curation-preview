@@ -273,7 +273,6 @@ export default {
                   link: linkUrl
                 }
                 items.push(output)
-                this.getCuratedThumbnail(items, id, 'N:package:1562c7b3-03ce-4ad5-86c2-6bdef0f6b310', )
               }
             }
           })
@@ -321,6 +320,7 @@ export default {
           )
         }
         this.scicrunchItems = items
+        this.setCuratedThumbnails()
       }
     },
     datasetBiolucida: {
@@ -374,6 +374,7 @@ export default {
   },
   mounted() {
     this.ro = new ResizeObserver(this.onResize).observe(this.$el)
+    this.setCuratedThumbnails()
   },
   destroyed() {
     delete this.ro
@@ -435,19 +436,35 @@ export default {
           }
         )
     },
-    getCuratedThumbnail(items, id, thumbnailId) {
-      console.log('in thumbnail calling: ', `${process.env.BF_DOWNLOAD_API}/imageFromPackageId/${thumbnailId}`)
-      fetch(`${process.env.BF_DOWNLOAD_API}/imageFromPackageId/${thumbnailId}`).then(d =>d.json()).then(d=>{
-        let source_url = d.url
-        console.log('got source url:', source_url)
-        fetch(source_url).then(rep=>rep.json()).then(img => {
-          console.log('resp', img)
-          let item = items.find(x => x.id === id)
-          this.scaleThumbnailImage(item, {
-            data: img
-          })
+    setCuratedThumbnails(){
+      console.log('staring thumbanil sci:', this.scicrunchItems)
+      this.scicrunchItems.forEach(item => {
+        curationPreview.forEach(cur => {
+          if (item.id === cur.pennsieveId) {
+            if( cur.thumbnailId ){
+              this.fetchImageUrl(cur.thumbnailId, item)
+            }
+          }
         })
       })
+    },
+    fetchImageUrl(packageId, item){
+      let _this = this
+      fetch(`${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${packageId}`).then(d =>d.json()).then(d=>{
+          console.log('got image')
+          _this.$set(item, 'thumbnail', d.url)
+          console.log('set image')
+      })
+    },
+    getCuratedThumbnail(items, id, thumbnailId) {
+      console.log('in thumbnail calling: ', `${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${thumbnailId}`)
+      let item = items.find(x => x.id === id)
+      let img = this.defaultPlotImg
+      // fetch(`${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${thumbnailId}`).then(d =>d.json()).then(d=>{
+      //   console.log('succesful call:', d.url)
+      //   // this.$set(item, 'thumbnail', d.url)
+      // })
+      this.$set(item, 'thumbnail', img)
     },
     goNext() {
       if (this.currentIndex < this.imageCount - 1) {
@@ -541,6 +558,7 @@ export default {
 
           const dataurl = canvas.toDataURL(image_info.mimetype)
           this_.$set(item, 'thumbnail', dataurl)
+          console.log('dataurl:', dataurl)
         }
 
         if (
@@ -552,6 +570,43 @@ export default {
           img.src = `data:${image_info.mimetype};base64,${image_info.data}`
         }
       }
+    },
+    scaleCurationImage(item, url) {
+      console.log('in curation image')
+
+        console.log('in window check')
+        let img = document.createElement('img')
+        const canvas = document.createElement('canvas')
+        const ctx = canvas.getContext('2d')
+        const this_ = this
+        img.onload = function() {
+          console.log('in onload')
+          ctx.drawImage(img, 0, 0)
+
+          const MAX_WIDTH = 180
+          const MAX_HEIGHT = 135
+          let width = img.width
+          let height = img.height
+
+          if (width > height) {
+            height *= MAX_WIDTH / width
+            width = MAX_WIDTH
+          } else {
+            width *= MAX_HEIGHT / height
+            height = MAX_HEIGHT
+          }
+          canvas.width = width
+          canvas.height = height
+          let new_ctx = canvas.getContext('2d')
+          new_ctx.drawImage(img, 0, 0, width, height)
+
+          const dataurl = canvas.toDataURL()
+          this_.$set(item, 'thumbnail', dataurl)
+          console.log('custom data url:', dataurl)
+        }
+        console.log('setting img src')
+        img.src = "https://prd-sparc-storage-use1.s3.amazonaws.com/465/255f07a9-cbe5-435b-9944-64ebbd181829/let_space_pass_through_the_stars.89.png?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLWVhc3QtMSJGMEQCIDr7bxzMLWfKsdCYNXe15kxK4657p%2Fl1TCfFRqWnh2kKAiAdCq2DfF%2FrQ6JmDS8Q4O%2FbspUk0AuLC0yHxbEgmqJ6EiqBBAgjEAEaDDc0MDQ2MzMzNzE3NyIMVafD88Tz0b9eHvSZKt4D%2BNchbsjaVluIsNg%2B6RCXRNsLYPKZkBdQDwRCqqvZWzBeEOeUNDzSPVqPr5YSk5cW1shXqfE2pHBG%2BQUx7nyN8YiyAww7Xcg0XrdfowxJUHHKrYHW%2B44%2FoGTpETwt6M%2FWTDFhrA6FfAOT8bWuh0i%2BQe0nFF5hX8pbzUEWbm1aMGK0jCpEJogbFrq9Njqxl5zBIuWDB%2FuYr9gJgO17F5rvbrsdY6GezOkPLPqxbysSj%2FPw3hzXH4QsxmfUBBatRI3FMEef3A685eBQ4WWARbOCtXIxAPEdIPEBFZLg%2BG8QQbL3j27w2q99X8%2B3%2FQu9eX2iYcKt%2FPKtMqKnnMfnCENyQxwHY1wPHJ8wq7%2B1%2FvPdyhkoSAKtNqyZTh8D6PJ0jdQeKou8VAnK6MyVO2qLMhQDKGngHvYws9utapzalImvg2QPDXe1E4dWdW%2F4Pci2WTEg5di9otbjgMOjaUKvtLH2OzOHjhVj22P5ViB%2FuK9irgLp7FrzFpo9efBSwa6EcabNzEZ1GPPwisUbkiT4BfyO%2B6%2Fq5N07ot9bpoF7Md8VlnulyHXPV4NUwizYWKg2enNMXacYN2f97YXFcbLYwFuLsjKbCRi1RnLXv451%2BTJeGd7S1XjWkH%2B0jXJLD3eMFDCr8euMBjqmAaVWNLjaBwBP7r%2FpubcQMPs7x2oaq0UE0tliaTcJxsruZRThae%2Fv3LTKqARI53%2FHrK49c7atJWfrdMq%2FV0uvcqoVVLZt3cT%2FauAd4jfVacMjZ4jcqKzLzw5xszTESxaMgvDfPsSTZ0ocg%2B0aG2XGwuVEKZv9Mw1SrA1fmMPzrOiIVPdK6bHUCFysMOTlfl99xw4kXZd1cSho3lcF6%2BE0plRGWoO83HY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20211122T030849Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Credential=ASIA2YZYN33MU5VW3VOQ%2F20211122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=08623cb7048f251b2e5852d542ee0ad88d46309faef2355f057a7c0434ed5320"
+
     },
     getImageFromS3(items, image_info) {
       discover
