@@ -149,7 +149,9 @@ export default [
     datasetId: 26,
     type: 'plot',
     title: 'Pig-820 Nodose-002 Blood gases',
-    pennsieveId: 'package:3a85cca5-9df8-46d8-9a85-3c3deb2524b8'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:3a85cca5-9df8-46d8-9a85-3c3deb2524b8',
+    thumbnailId: 'package:97059e93-7c8e-4823-b8fc-5546e1244805'
   },
   {
     datasetId: 26,
@@ -1270,26 +1272,34 @@ export default [
   {
     datasetId: 153,
     type: 'plot',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
     title: 'Rectal temperature change',
-    pennsieveId: 'package:93869d71-fc32-43b3-8952-2a9d5920f235'
+    pennsieveId: 'package:93869d71-fc32-43b3-8952-2a9d5920f235',
+    thumbnailId: 'package:9f2726bc-71c8-4c62-b74a-b43ec2034d7b'
   },
   {
     datasetId: 153,
     type: 'plot',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
     title: 'Rectal temperature data',
-    pennsieveId: 'package:9cc575d8-287c-4384-89e0-514ea46182d0'
+    pennsieveId: 'package:9cc575d8-287c-4384-89e0-514ea46182d0',
+    thumbnailId: 'package:39d522d7-3383-4033-aed7-53519aef345e'
   },
   {
     datasetId: 153,
     type: 'plot',
     title: 'iBAT temperature change',
-    pennsieveId: 'package:a49f708c-341d-4db0-80e2-d12970b671f9'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:a49f708c-341d-4db0-80e2-d12970b671f9',
+    thumbnailId: 'package:816dc01f-fefd-436d-b465-21471682598b'
   },
   {
     datasetId: 153,
     type: 'plot',
     title: 'iBAT temperature data',
-    pennsieveId: 'package:b0ea3d0b-2649-422c-afe8-2ebccd432c69'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:b0ea3d0b-2649-422c-afe8-2ebccd432c69',
+    thumbnailId: 'package:bc8484a8-d74c-48c1-8da4-6fffa559e3fd'
   },
   {
     datasetId: 149,
@@ -1338,11 +1348,5 @@ export default [
     type: 'plot',
     title: 'T12 30Hz Stimulation, Afferent and Efferent fibres',
     pennsieveId: 'package:4479e1e1-263f-4ab1-b5d8-a61d4358e13a'
-  },
-  {
-    datasetId: 140,
-    type: 'plot',
-    title: 'test',
-    pennsieveId: 'package:c2928b22-f383-475e-80c7-872daa7b0306'
   }
 ]
