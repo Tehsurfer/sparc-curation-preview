@@ -170,7 +170,7 @@ export default [
     datasetId: 26,
     type: 'plot',
     title: 'Pig-820 Nodose-002 Blood gases',
-    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "y-axes-columns": [0, 1, 2, 3, 4, 5]}},
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "y-axes-columns": [1, 2, 3, 4, 5]}},
     pennsieveId: 'package:3a85cca5-9df8-46d8-9a85-3c3deb2524b8',
     thumbnailId: 'package:97059e93-7c8e-4823-b8fc-5546e1244805'
   },
@@ -178,7 +178,7 @@ export default [
     datasetId: 26,
     type: 'plot',
     title: 'Pig-820 Nodose-002 Hemodynamics',
-    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "y-axes-columns": [0, 1, 2, 3, 4, 5, 6]}},
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "y-axes-columns": [1, 2, 3, 4, 5, 6]}},
     pennsieveId: 'package:64ca9585-91a7-405d-ac1a-5db641097085',
     thumbnailId: 'package:163556fb-0988-48b4-b5ac-6377e743fe02'
   },
@@ -186,7 +186,7 @@ export default [
     datasetId: 26,
     type: 'plot',
     title: 'Pig013 ICNS15 Blood gases',
-    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "y-axes-columns": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}},
     pennsieveId: 'package:225a8f4d-1e42-4f6b-9cfb-7c1c92adf55d',
     thumbnailId: 'package:f2807c57-7c2f-44f8-b1f4-a8b9a98e2856'
   },
@@ -194,7 +194,7 @@ export default [
     datasetId: 26,
     type: 'plot',
     title: 'Pig013 ICNS15 Hemodynamics',
-    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis-column": 2, "y-axes-columns": [3, 4, 5, 6]}},
     pennsieveId: 'package:ecd9693d-d6aa-43f6-9371-0c693aab445c',
     thumbnailId: 'package:30132148-93a7-4c91-8201-8daeccfe5c1a'
   },
@@ -202,7 +202,7 @@ export default [
     datasetId: 26,
     type: 'plot',
     title: 'Pig47 Stellate Stim Metadata Physiology Hemodynamics',
-    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "y-axes-columns": [3, 4, 5]}},
     pennsieveId: 'package:44f1433d-d60a-4dc7-8382-4399088f0fda',
     thumbnailId: 'package:bf300ea0-249c-49b4-922d-01fbb6e698cd'
   },
