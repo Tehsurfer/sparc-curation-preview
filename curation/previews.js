@@ -976,169 +976,253 @@ export default [
     datasetId: 142,
     type: 'plot',
     title: 'Sub10 Sam1 Pressure Preconditioning',
-    pennsieveId: 'package:10d905a5-9cd1-4dc8-af79-8bd9c9551be6'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:10d905a5-9cd1-4dc8-af79-8bd9c9551be6',
+    thumbnailId: 'package:a70a171e-2185-4b87-b3ef-819e923fafb7',
+    additionalId: 'package:7e0a747d-a6de-4ad4-8c1e-bd103b0bd6d4'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub10 Sam1 Stretch Preconditioning',
-    pennsieveId: 'package:8ee78065-1b60-4c4b-8da9-7d62ea9f5395'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:8ee78065-1b60-4c4b-8da9-7d62ea9f5395',
+    thumbnailId: 'package:ef3fc185-e340-40fd-8fbc-453818a43c57',
+    additionalId: 'package:6b7b09d8-5b59-42d1-bd0a-f11b2c53114c'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub10 Sam1 Stretch Pressure Twist',
-    pennsieveId: 'package:b17ecc40-3745-4ba9-8bed-0f389781f3de'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:b17ecc40-3745-4ba9-8bed-0f389781f3de',
+    thumbnailId: 'package:69d369cc-338f-4aff-922d-240401816817',
+    additionalId: 'package:f77d2c1f-957b-41b1-84d8-c6d39edca6de'
   },
   {
     datasetId: 142,
     type: 'plot',
-    title: 'Sub11 Sam1 Preesure Preconditioning',
-    pennsieveId: 'package:9f08a52a-736a-4825-a232-6e096d56b8b6'
+    title: 'Sub11 Sam1 Pressure Preconditioning',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:9f08a52a-736a-4825-a232-6e096d56b8b6',
+    thumbnailId: 'package:652287e9-d583-46cb-89bc-ee76142eb4ed',
+    additionalId: 'package:6a9d5add-2caa-4361-9d17-e125a9a060d5'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub11 Sam1 Stretch Preconditioning',
-    pennsieveId: 'package:bb850a45-9a0a-4a10-90a9-e5cf5d8ac168'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:bb850a45-9a0a-4a10-90a9-e5cf5d8ac168',
+    thumbnailId: 'package:3e16cf2c-88f1-4945-b933-e47f6514cd76',
+    additionalId: 'package:3dbff556-2460-4ec9-9575-a7fb4710b518'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub11 Sam1 Stretch Pressure Twist',
-    pennsieveId: 'package:2ce44214-34cb-4d9d-be56-6b2f9732ba29'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:2ce44214-34cb-4d9d-be56-6b2f9732ba29',
+    thumbnailId: 'package:62c951f1-58b5-47ff-a773-b3b1586f8132',
+    additionalId: 'package:12924749-e64f-45eb-b963-a3efc9e55e74'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub12 Sam1 Pressure Preconditioning',
-    pennsieveId: 'package:3d5f470c-371d-41c9-a2f8-c2c748d58d18'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:3d5f470c-371d-41c9-a2f8-c2c748d58d18',
+    thumbnailId: 'package:70d4c06e-8157-4146-8315-2160e5aecb07',
+    additionalId: 'package:c045b72f-ecae-4d5b-9b8c-f3972eef8b37'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub12 Sam1 Stretch Preconditioning',
-    pennsieveId: 'package:ba746a4f-1ed8-4504-8142-066f0818ebc7'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:ba746a4f-1ed8-4504-8142-066f0818ebc7',
+    thumbnailId: 'package:c4679e2a-b73d-4781-badb-de77ef4a9c37',
+    additionalId: 'package:b5dc27f1-d366-435d-8c79-10454818eeff'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub12 Sam1 Stretch Pressure Twist',
-    pennsieveId: 'package:ee3d4ec0-667e-4cdf-858b-835a216dfe6c'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:ee3d4ec0-667e-4cdf-858b-835a216dfe6c',
+    thumbnailId: 'package:70ada4af-905f-4c59-99e5-40dae1e7efd0',
+    additionalId: 'package:4e6e5ed5-48f7-4f17-b48c-a0ea88c06e16'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub5 Sam1 Pressure Preconditioning',
-    pennsieveId: 'package:b1469896-1a35-4014-997e-05e3577f84ca'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:b1469896-1a35-4014-997e-05e3577f84ca',
+    thumbnailId: 'package:8582d0f2-a65e-453c-b3a2-93f53d5fac0e',
+    additionalId: 'package:d209e4dd-366b-428e-9961-fab6f77613f5'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub5 Sam1 Stretch Preconditioning',
-    pennsieveId: 'package:87bfe5ce-3d89-4dd3-9df0-083499f7a204'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:87bfe5ce-3d89-4dd3-9df0-083499f7a204',
+    thumbnailId: 'package:f59368c9-b4ca-42bc-9eb5-e0e9695a0054',
+    additionalId: 'package:a7f8570f-5f99-47ce-b86a-e93a63871185'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub5 Sam1 Stretch Pressure Twist',
-    pennsieveId: 'package:89b58f84-e788-4ed5-81f6-6ac60f12c687'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:89b58f84-e788-4ed5-81f6-6ac60f12c687',
+    thumbnailId: 'package:64c0de57-370a-4847-bc52-ee791c088a80',
+    additionailId: 'package:9e810e88-c2c1-4cca-85fb-156c97a2da05'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub6 Sam1 Pressure Preconditioning',
-    pennsieveId: 'package:1f8f1582-da35-4f56-8544-2e2a86f92f92'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:1f8f1582-da35-4f56-8544-2e2a86f92f92',
+    thumbnailId: 'package:4ae0471b-5d6e-4f67-8e0a-f85afe3e6f14',
+    additionalId: 'package:30ca7382-f879-46fa-8725-32a68423b924'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub6 Sam1 Stretch Preconditioning',
-    pennsieveId: 'package:571593a0-1377-4e93-99b8-f53dd40b52a4'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:571593a0-1377-4e93-99b8-f53dd40b52a4',
+    thumbnailId: 'package:97e8ec40-aba9-48f5-9ba6-5ba41fc426cf',
+    additionalId: 'package:9e066817-2987-4b86-b36b-5b0e1f45a156'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub6 Sam1 Stretch Pressure Twist',
-    pennsieveId: 'package:b50d51a4-f2ce-4d42-877c-1213bf878f2c'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:b50d51a4-f2ce-4d42-877c-1213bf878f2c',
+    thumbnailId: 'package:2caf2811-b1c2-4f9b-b0f3-3f3546d81357',
+    additionalId: 'package:de424bcf-e556-4bc9-b3dc-4956b6554f0d'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub7 Sam1 Pressure Preconditioning',
-    pennsieveId: 'package:76c5a955-7604-4ff4-9b71-c50fb288384a'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:76c5a955-7604-4ff4-9b71-c50fb288384a',
+    thumbnailId: 'package:1d4bfc08-7d56-419d-8a2c-987ff75989bc',
+    additionalId: 'package:5a0bbe7a-3510-423a-8d35-c2d546d2ff69'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub7 Sam1 Stretch Preconditioning',
-    pennsieveId: 'package:f5deff5a-16cf-42cb-a668-4375c016d443'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:f5deff5a-16cf-42cb-a668-4375c016d443',
+    thumbnailId: 'package:45a388cd-9102-4579-856f-b20237f1a352',
+    additionalId: 'package:0cc50366-62a8-429b-9908-848b311bb920'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub8 Sam1 Pressure Preconditioning',
-    pennsieveId: 'package:fce1d052-5068-4de5-ba7b-8908bcf1a228'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:fce1d052-5068-4de5-ba7b-8908bcf1a228',
+    thumbnailId: 'package:08aa4314-dc70-47b2-9b24-e2eb0b5e5ab7',
+    additionalId: 'package:d24b7c7c-e3e0-4f90-8bf9-d499ba1755a4'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub8 Sam1 Stretch Preconditioning',
-    pennsieveId: 'package:d33fe7df-8770-4dc8-bff3-7b490866f374'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:d33fe7df-8770-4dc8-bff3-7b490866f374',
+    thumbnailId: 'package:6b8ed987-2304-4253-bc8a-f52a9856f64d',
+    additionalId: 'package:b45db651-cedd-41e5-82ff-a6d07c2e3c15'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub9 Sam1 Pressure Preconditioning',
-    pennsieveId: 'package:e2b05ff5-36d3-49c5-bcb3-310bcc030c7f'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:e2b05ff5-36d3-49c5-bcb3-310bcc030c7f',
+    thumbnailId: 'package:39a2a04e-b98b-4e5a-8f46-213c99804057',
+    additionalId: 'package:88cc11dd-b000-4b0b-983b-6e2b47e0bab7'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub9 Sam1 Strech Preconditioning',
-    pennsieveId: 'package:9fb092b6-8daa-4e86-8ad2-4358173581b2'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:9fb092b6-8daa-4e86-8ad2-4358173581b2',
+    thumbnailId: 'package:e5650cd2-1b6e-481d-8cb8-e1f2fd860f48',
+    additionalId: 'package:4da5253d-664a-443c-8ee7-02674e86684c'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub9 Sam1 Stretch Pressure Twist',
-    pennsieveId: 'package:36da4fd2-2035-44d3-820a-f92974f6a282'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:36da4fd2-2035-44d3-820a-f92974f6a282',
+    thumbnailId: 'package:63d3013c-1394-4f6b-aaa5-0fefb7f31475',
+    additionalId: 'package:fd1dd185-cdea-4a1d-9bdc-d3a56c91f008'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub9170 Sam1 Pressure Preconditioning',
-    pennsieveId: 'package:9873902d-cf0f-4a1a-bcd6-769f31a1f041'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:9873902d-cf0f-4a1a-bcd6-769f31a1f041',
+    thumbnailId: 'package:9f132ecf-93e3-4305-8ac1-9f1cf90d4c76',
+    additionalId: 'package:9a190ac2-bae8-461f-b58b-c5393940b25a'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub9170 Sam1 Stretch Preconditioning',
-    pennsieveId: 'package:0d6966ed-2ad0-4916-a55b-ce567b80dfa7'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:0d6966ed-2ad0-4916-a55b-ce567b80dfa7',
+    thumbnailId: 'package:0d815cf0-6810-4691-aa4c-1a8e2cb2c777',
+    additionalId: 'package:c6cd68dc-6b0e-409c-b9b2-d472e5a396bb'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub9170 Sam1 Stretch Pressure Twist',
-    pennsieveId: 'package:d298b82f-a80f-4a76-a4f2-5eae92ee682a'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:d298b82f-a80f-4a76-a4f2-5eae92ee682a',
+    thumbnailId: 'package:69dfdf70-d94d-43f9-937a-23e3b3228a7b',
+    additionalId: 'package:543886a0-a334-4986-9fb0-668f7bb6da05'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub9238 Sam1 Pressure Preconditioning',
-    pennsieveId: 'package:6edaee3d-e4bb-4557-9ee6-56e8be6d35be'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:6edaee3d-e4bb-4557-9ee6-56e8be6d35be',
+    thumbnailId: 'package:9945f80b-263f-4418-82f0-1caf88ff07b7',
+    additionalId: 'package:13830fc8-6a88-40c9-a019-de9074d8dff3'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub9238 Sam1 Stretch Preconditioning',
-    pennsieveId: 'package:3bcf64da-bdf5-4cb1-b8be-3767bbb7141c'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:3bcf64da-bdf5-4cb1-b8be-3767bbb7141c',
+    thumbnailId: 'package:e26181a9-4231-42e3-a9cb-13860397cfa0',
+    additionalId: 'package:9c901df9-fc10-4b4e-b4f8-ff231d9eda0f'
   },
   {
     datasetId: 142,
     type: 'plot',
     title: 'Sub9238 Sam1 Stretch Pressure Twist',
-    pennsieveId: 'package:d67aa547-d7a7-4734-8083-a0cb3bd97b70'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
+    pennsieveId: 'package:d67aa547-d7a7-4734-8083-a0cb3bd97b70',
+    thumbnailId: 'package:698068e8-f0f1-4416-9f4d-55e7fed18548',
+    additionalId: 'package:ca6956b3-db16-4948-b11d-72ba7730b163'
   },
   {
     datasetId: 124,
