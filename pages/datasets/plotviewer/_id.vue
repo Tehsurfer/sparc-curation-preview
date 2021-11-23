@@ -93,7 +93,9 @@ export default {
 
       if (curation.additionalId){
         let supplemental_url = await fetch(`${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${curation.additionalId}`).then(d =>d.json()).then(d=>d.url)
-        supplemental_data = supplemental_url
+        supplemental_data.push({
+          url: supplemental_url
+        })
       }
       let metadata = curation.metadata
       console.log('source', source_url, metadata, supplemental_data)
