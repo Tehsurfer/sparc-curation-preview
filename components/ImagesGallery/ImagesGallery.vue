@@ -435,12 +435,11 @@ export default {
           }
         )
     },
-    setCuratedThumbnails(){
-      console.log('staring thumbanil sci:', this.scicrunchItems)
+    setCuratedThumbnails() {
       this.scicrunchItems.forEach(item => {
         curationPreview.forEach(cur => {
           if (item.id === cur.pennsieveId) {
-            if( cur.thumbnailId ){
+            if (cur.thumbnailId) {
               this.fetchImageUrl(cur.thumbnailId, item)
             }
           }
@@ -456,16 +455,6 @@ export default {
           _this.scaleCurationImage(item, d.url)
           console.log('set image')
       })
-    },
-    getCuratedThumbnail(items, id, thumbnailId) {
-      console.log('in thumbnail calling: ', `${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${thumbnailId}`)
-      let item = items.find(x => x.id === id)
-      let img = this.defaultPlotImg
-      // fetch(`${process.env.BF_DOWNLOAD_API}/urlFromPackageId/${thumbnailId}`).then(d =>d.json()).then(d=>{
-      //   console.log('succesful call:', d.url)
-      //   // this.$set(item, 'thumbnail', d.url)
-      // })
-      this.$set(item, 'thumbnail', img)
     },
     goNext() {
       if (this.currentIndex < this.imageCount - 1) {
@@ -573,9 +562,7 @@ export default {
       }
     },
     scaleCurationImage(item, url) {
-      console.log('in curation image')
-
-        console.log('in window check')
+      if (typeof window !== 'undefined') {
         let img = document.createElement('img')
         const canvas = document.createElement('canvas')
         const ctx = canvas.getContext('2d')
@@ -606,9 +593,9 @@ export default {
           console.log('custom data url:', dataurl)
         }
         console.log('setting img src')
-        img.crossOrigin="anonymous"
+        img.crossOrigin = 'anonymous'
         img.src = url
-
+      }
     },
     getImageFromS3(items, image_info) {
       discover
