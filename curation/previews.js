@@ -178,7 +178,7 @@ export default [
     datasetId: 26,
     type: 'plot',
     title: 'Pig-820 Nodose-002 Hemodynamics',
-    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "y-axes-columns": [1, 2, 3, 4, 5, 6]}},
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis-column": 2, "y-axes-columns": [3, 4, 5, 6]}},
     pennsieveId: 'package:64ca9585-91a7-405d-ac1a-5db641097085',
     thumbnailId: 'package:163556fb-0988-48b4-b5ac-6377e743fe02'
   },
