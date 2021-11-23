@@ -43,7 +43,8 @@ export default [
     type: 'plot',
     title: 'HB-ICN-NegDDCT',
     metadata: { version: '1.2.0', type: 'plot', attrs: { style: 'heatmap', columnHeaderIndex: 1, columnHeaderSize: 3 } },
-    pennsieveId: 'package:975df3ca-ff23-4c50-829b-b28eba4f423a'
+    pennsieveId: 'package:975df3ca-ff23-4c50-829b-b28eba4f423a',
+    thumbnailId: 'package:cbfda02a-e982-40fb-b7cb-8bb5c70e24d6'
   },
   {
     datasetId: 118,
@@ -57,99 +58,119 @@ export default [
     type: 'plot',
     title: 'Average per strain',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    pennsieveId: 'package:b220ef4d-deba-4541-a707-315340c6eb46'
+    pennsieveId: 'package:b220ef4d-deba-4541-a707-315340c6eb46',
+    thumbnailId: 'package:d977ef0a-8c06-48ce-a153-badf9d546c93'
   },
   {
     datasetId: 139,
     type: 'plot',
-    title: 'Differential expression WistarVsSHR',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    pennsieveId: 'package:bfd00749-f476-4859-868a-672275745f14'
+    title: 'Differential expression WistarVsSHR',
+    pennsieveId: 'package:bfd00749-f476-4859-868a-672275745f14',
+    thumbnailId: 'package:82c05031-c3f5-4d10-8df8-80be0d96443f'
   },
   {
     datasetId: 117,
     type: 'plot',
     title: 'PR1643_Negddct',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
     pennsieveId: 'package:4b82a35a-7914-4080-85fa-f15fb6f984c0'
   },
   {
     datasetId: 117,
     type: 'plot',
     title: 'PR1643 normalised gene counts',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
     pennsieveId: 'package:3730b83a-42d4-44b9-b90e-6f6fefa5b29b'
   },
   {
     datasetId: 116,
     type: 'plot',
     title: 'PR1643-142 Samples Raw Gene Counts',
-    pennsieveId: 'package:7b1a5fe7-c8de-4c29-8c69-69b8186ccffe'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:7b1a5fe7-c8de-4c29-8c69-69b8186ccffe',
+    thumbnailId: 'package:af55ea97-5789-4113-852d-9e5a277cb4e6'
   },
   {
     datasetId: 116,
     type: 'plot',
     title: 'PR1643 Normalised Gene Counts',
-    pennsieveId: 'package:f13a41ae-edd7-408c-89f5-477a23be9591'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:f13a41ae-edd7-408c-89f5-477a23be9591',
+    thumbnailId: 'package:8ad4b25c-e979-4f88-8a42-71f8c0f5f309'
   },
   {
     datasetId: 119,
     type: 'plot',
     title: 'RAGP_4subs_final_negddct_matrix',
-    pennsieveId: 'package:dc315029-255d-4c41-86de-4b857d6149a9'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:dc315029-255d-4c41-86de-4b857d6149a9',
+    thumbnailId: 'package:c68657f2-383d-467d-a98e-6bfd98694935'
   },
   {
     datasetId: 119,
     type: 'plot',
     title: 'RAGP_4subs_negdct',
-    pennsieveId: 'package:3df73fd7-2903-4880-80c6-ceb8f9b061ef'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:3df73fd7-2903-4880-80c6-ceb8f9b061ef',
+    thumbnailId: 'package:1fa4bf27-a49d-4b04-8eb2-dbebad2d88d9'
   },
   {
     datasetId: 119,
     type: 'plot',
     title: 'RAGP_4subs_negddct',
-    pennsieveId: 'package:156174dc-06e4-4b35-9ffa-2c4f01c91ba4'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:156174dc-06e4-4b35-9ffa-2c4f01c91ba4',
+    thumbnailId: 'package:468e45e5-00fc-4b7b-a822-7e9b4f77296a'
   },
   {
     datasetId: 119,
     type: 'plot',
     title: 'RAGP_4subs_raw_Ct',
     metadata: { version: '1.2.0', type: 'plot', attrs: { style: 'heatmap', columnHeaderIndex: 1, columnHeaderSize: 3 } },
-    pennsieveId: 'package:ac7c976a-459a-4d32-ae43-09cd89340480'
+    pennsieveId: 'package:ac7c976a-459a-4d32-ae43-09cd89340480',
+    thumbnailId: 'package:6ab78c2e-f66f-44bb-9d32-70070ce604c5'
   },
   {
     datasetId: 115,
     type: 'plot',
     title: 'RAGP_4subs_negddct_matrix',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
     pennsieveId: 'package:ebb762ff-7c4a-41ac-ad45-c8044e499832'
   },
   {
     datasetId: 115,
     type: 'plot',
     title: 'RAGP_4subs_raw_Ct',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
     pennsieveId: 'package:a6c01a56-30f0-4156-b4d1-758bc8e3f7b1'
   },
   {
     datasetId: 115,
     type: 'plot',
     title: 'RNAseq_PR1643 Normalised Gene Counts',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
     pennsieveId: 'package:5e2789e7-746c-4b38-abd1-f979dedc33ff'
   },
   {
     datasetId: 115,
     type: 'plot',
     title: 'Genes 60% Expression Across All RAGP',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
     pennsieveId: 'package:8b9aa0e6-d79d-48fe-913b-fdbf08dcda88'
   },
   {
     datasetId: 115,
     type: 'plot',
     title: 'Neuronally Enriched GTEx Genes in our Data',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
     pennsieveId: 'package:30617cbc-f321-4d4c-ad01-d0dc014b7b14'
   },
   {
     datasetId: 26,
     type: 'plot',
     title: 'Pig-820 Nodose-002 Blood gases',
-    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "y-axes-columns": [0, 1, 2, 3, 4, 5]}},
     pennsieveId: 'package:3a85cca5-9df8-46d8-9a85-3c3deb2524b8',
     thumbnailId: 'package:97059e93-7c8e-4823-b8fc-5546e1244805'
   },
@@ -157,25 +178,33 @@ export default [
     datasetId: 26,
     type: 'plot',
     title: 'Pig-820 Nodose-002 Hemodynamics',
-    pennsieveId: 'package:64ca9585-91a7-405d-ac1a-5db641097085'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "y-axes-columns": [0, 1, 2, 3, 4, 5, 6]}},
+    pennsieveId: 'package:64ca9585-91a7-405d-ac1a-5db641097085',
+    thumbnailId: 'package:163556fb-0988-48b4-b5ac-6377e743fe02'
   },
   {
     datasetId: 26,
     type: 'plot',
     title: 'Pig013 ICNS15 Blood gases',
-    pennsieveId: 'package:225a8f4d-1e42-4f6b-9cfb-7c1c92adf55d'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:225a8f4d-1e42-4f6b-9cfb-7c1c92adf55d',
+    thumbnailId: 'package:f2807c57-7c2f-44f8-b1f4-a8b9a98e2856'
   },
   {
     datasetId: 26,
     type: 'plot',
     title: 'Pig013 ICNS15 Hemodynamics',
-    pennsieveId: 'package:ecd9693d-d6aa-43f6-9371-0c693aab445c'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:ecd9693d-d6aa-43f6-9371-0c693aab445c',
+    thumbnailId: 'package:30132148-93a7-4c91-8201-8daeccfe5c1a'
   },
   {
     datasetId: 26,
     type: 'plot',
     title: 'Pig47 Stellate Stim Metadata Physiology Hemodynamics',
-    pennsieveId: 'package:44f1433d-d60a-4dc7-8382-4399088f0fda'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:44f1433d-d60a-4dc7-8382-4399088f0fda',
+    thumbnailId: 'package:bf300ea0-249c-49b4-922d-01fbb6e698cd'
   },
   {
     datasetId: 132,
