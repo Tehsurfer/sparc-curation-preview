@@ -429,283 +429,404 @@ export default [
     datasetId: 114,
     type: 'plot',
     title: 'Abdomen Push Trial',
-    pennsieveId: 'package:d5379bd9-79cf-48d9-b320-9ed52c598ba0'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:d5379bd9-79cf-48d9-b320-9ed52c598ba0',
+    thumbnailId: 'package:279cfa72-951b-407c-bde0-5de33317cf35',
+    additionalId: 'package:c7ce85e3-1cde-4e21-927c-73bebce92807'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'trial7 Second Artificial Stool',
-    pennsieveId: 'package:57eb1228-312f-4fb7-8c43-4163ab1e16a3'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:57eb1228-312f-4fb7-8c43-4163ab1e16a3',
+    thumbnailId: 'package:fe4060d4-62f8-4104-9001-a5c02b25f103',
+    additionalId: 'package:f7f32446-adfe-4563-937e-2054a2a10da0'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'trial2 Stool Calibration',
-    pennsieveId: 'package:257c03ab-96dc-4de7-8415-6f8a92630202'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:257c03ab-96dc-4de7-8415-6f8a92630202',
+    thumbnailId: 'package:d14a21d2-67b6-464e-9b23-a20f4c2df0ef',
+    additionalId: 'package:cb1644e3-0d2c-40b4-ac96-eab61161a3ae'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'trial3 Insertion',
-    pennsieveId: 'package:f139631b-c30d-4c66-901a-f12af8409242'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:f139631b-c30d-4c66-901a-f12af8409242',
+    thumbnailId: 'package:15386109-3cc2-4f39-af66-3620ca901ba3',
+    additionalId: 'package:83e2fadc-61be-4d68-b8f2-26bdc1f68c15'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'trial4 Insertion',
-    pennsieveId: 'package:316836dc-c247-4663-b1de-544083649b78'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:316836dc-c247-4663-b1de-544083649b78',
+    thumbnailId: 'package:387d6c43-0d97-48fd-8fa1-c5a839fb1762',
+    additionalId: 'package:da3e7234-d99a-4367-992b-90fe2ee2a6af'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'trial8 New Pressure Test',
-    pennsieveId: 'package:16186ca4-f9a5-437c-a2b7-483046f77488'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:16186ca4-f9a5-437c-a2b7-483046f77488',
+    thumbnailId: 'package:58abeb94-fc6a-4e9c-8f11-7be589e8e624',
+    additionalId: 'package:6b4ad2be-fa98-4461-8845-373bf3528a61'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'trial5 Artificial Stool',
-    pennsieveId: 'package:bd1ff1e2-6176-43aa-be57-1e9f3a152629'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:bd1ff1e2-6176-43aa-be57-1e9f3a152629',
+    thumbnailId: 'package:18dfa462-19ce-4b9b-aa7d-c53549af372d',
+    additionalId: 'package:376b1f0e-21a3-4992-b66d-93a0e33acd16'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'trial6 Removal of First Artifical Stool',
-    pennsieveId: 'package:fbbc8f5c-9cbe-4d1f-b225-702620d14578'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:fbbc8f5c-9cbe-4d1f-b225-702620d14578',
+    thumbnailId: 'package:b5f67b4a-00dd-4d01-86e8-f27f6f09ac6c',
+    additionalId: 'package:5a8a1896-f34f-4c34-9e17-5e327ca4828f'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'posthoc Calibration',
-    pennsieveId: 'package:98745016-ff1d-4c47-81da-d3d1a8940ff3'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:98745016-ff1d-4c47-81da-d3d1a8940ff3',
+    thumbnailId: 'package:71e73f2c-d913-4f80-957a-09babb0f1aea',
+    additionalId: 'package:199f2af7-e397-4b8d-bcf3-9b795ff8480e'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'posthoc ConducCalib',
-    pennsieveId: 'package:ffc0fd0c-76a6-4d92-b9f3-e68a50575a39'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:ffc0fd0c-76a6-4d92-b9f3-e68a50575a39',
+    thumbnailId: 'package:9623f8a5-b953-461a-bcd7-c3c9b78f0951',
+    additionalId: 'package:3bef884f-9f22-4d56-8656-45350e41d241'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Ian PressCalib2',
-    pennsieveId: 'package:7d1ff231-a809-4207-97b4-508b9aec021e'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:7d1ff231-a809-4207-97b4-508b9aec021e',
+    thumbnailId: 'package:7ad982e9-3f52-4a62-a337-55b905466d01',
+    additionalid: 'package:41f6b12a-a785-42ab-86f2-9d37494aaebd'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Laparotomy Pressure Trial',
-    pennsieveId: 'package:8c450dda-86e5-4628-8fd6-bed662dcaf4f'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:8c450dda-86e5-4628-8fd6-bed662dcaf4f',
+    thumbnailId: 'package:9e4912bd-3c83-4dd6-b946-75ea5d532bc5',
+    additionalId: 'package:f076f4f1-88d3-4c4a-80dd-1a31e7df3865'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Laparotomy pressure trial - Stool Movement',
-    pennsieveId: 'package:3735b5eb-fd8e-468e-a5f8-a8a0cadee038'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:3735b5eb-fd8e-468e-a5f8-a8a0cadee038',
+    thumbnailId: 'package:84c2481a-3246-46dd-971f-c5075d0f7f0c',
+    additionalId: 'package:eec54a3a-e4d8-4ac1-ad3f-4fbc63ff3ab8'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Laparatomy pressure trial - Abdomen Closed',
-    pennsieveId: 'package:5af8bc1a-ec3e-46f3-a655-8c67c45254e0'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:5af8bc1a-ec3e-46f3-a655-8c67c45254e0',
+    thumbnailId: 'package:4a575c78-cbb5-4df3-9320-1b7f4d4294e7',
+    additionalId: 'package:6e3fb674-15da-4353-a2a2-e76283fb0ab3'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Laparotomy pressure trial - Empty out stool HC Stool',
-    pennsieveId: 'package:99c5d69e-016a-4b1b-97c3-f97d8d0ee714'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:99c5d69e-016a-4b1b-97c3-f97d8d0ee714',
+    thumbnailId: 'package:5167b48e-aaf0-46af-8d7e-85f2fc1d8593',
+    additionalId: 'package:335d45f5-5ff5-461d-9f1d-2999d5f00b04'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Laprotomy pressure trial - Empty out stool 2',
-    pennsieveId: 'package:a1e027a3-d208-454d-ae7e-ff3272c53e46'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:a1e027a3-d208-454d-ae7e-ff3272c53e46',
+    thumbnailId: 'package:93884695-20fe-42ed-8885-94e0f7f62793',
+    additionalId: 'package:98f63a27-2552-4f0a-9870-41fbb30d8593'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Pre-insert Calibration',
-    pennsieveId: 'package:ea199df6-fc25-4570-b204-2f2803125c49'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:ea199df6-fc25-4570-b204-2f2803125c49',
+    thumbnailId: 'package:1605999a-6aac-438c-93e3-c992cae7f04b',
+    additionalId: 'package:6fc94af1-969e-4f54-ab63-2ae2fa73c69f'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Artificial Stool Volume',
-    pennsieveId: 'package:9561aa4c-55f8-4775-b4e5-a068f66658bc'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:9561aa4c-55f8-4775-b4e5-a068f66658bc',
+    thumbnailId: 'package:52bda9b4-1be5-40ab-afdd-d512976a0bc5',
+    additionalId: 'package:e9b72eea-e80e-4fb5-86f6-41e2ef7a392d'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Balloon Insertion',
-    pennsieveId: 'package:42a25127-27e7-4314-9388-7f0325fed1cb'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:42a25127-27e7-4314-9388-7f0325fed1cb',
+    thumbnailId: 'package:f1dcbe17-1a6b-45df-b7b8-9c7f28dc607d',
+    additionalId: 'package:15e0748e-1428-4fc7-84d3-31a413b9b8c7'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Put Artificial Stool Volume Inside Stool Over Sensor',
-    pennsieveId: 'package:f4e9193d-0bef-4877-adea-21dab30303bb'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:f4e9193d-0bef-4877-adea-21dab30303bb',
+    thumbnailId: 'package:551f2bac-37fd-4d5c-a34e-0e32f645d2a3',
+    additionalId: 'package:8827f56c-9287-4106-853c-f921da3daf81'
   },
   {
     datasetId: 114,
     type: 'plot',
     title: 'Put Artificial Stool Volume Inside Stool Over Sensor Advancing',
-    pennsieveId: 'package:f4c935ca-f139-41d0-a0e3-239d2a6af679'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:f4c935ca-f139-41d0-a0e3-239d2a6af679',
+    thumbnailId: 'package:e8756972-813e-4143-9966-bd7fb9028856',
+    additionalId: 'package:0f743239-94fa-4dc3-bc5a-34da49b5081a'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Ses1 Cat1 Fill1 9-02-50 AM',
-    pennsieveId: 'package:b5811ced-55fb-4c8c-9520-511d7ad09617'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:b5811ced-55fb-4c8c-9520-511d7ad09617',
+    thumbnailId: 'package:c294fe78-42ac-452e-8a61-360993687aed'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Ses1 Cat1 Fill2 11-45-38 AM',
-    pennsieveId: 'package:945be1f0-31b2-4ea0-a9a0-b16042b126fb'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:945be1f0-31b2-4ea0-a9a0-b16042b126fb',
+    thumbnailId: 'package:dc8cb778-fa5e-4603-9e34-d070bc284d18'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Ses1 Cat1 Fill2 11-57-18 AM',
-    pennsieveId: 'package:4e8dac59-6cdb-40cf-a010-a3239366b9aa'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:4e8dac59-6cdb-40cf-a010-a3239366b9aa',
+    thumbnailId: 'package:71d954d3-1f2a-4a4a-946c-9b2f9942dd71'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Ses1 Cat1 Fill1 9-18-30 AM',
-    pennsieveId: 'package:e6c91af4-23dc-4f42-85ce-48c790f6b508'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:e6c91af4-23dc-4f42-85ce-48c790f6b508',
+    thumbnailId: 'package:29e6fa0b-0c66-4773-8d9e-f8a53ac8aa20'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Ses1 Cat1 PostFill Empty Bladder',
-    pennsieveId: 'package:d0e6adb0-5dc4-44e0-9750-0a35fce7a306'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:d0e6adb0-5dc4-44e0-9750-0a35fce7a306',
+    thumbnailId: 'package:b78745be-93d0-4a34-a763-e4e8b3af298d'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Ses2 Cat1 Fill1',
-    pennsieveId: 'package:c0f4bb9c-69cd-41f7-be80-d1d50f85b5ff'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:c0f4bb9c-69cd-41f7-be80-d1d50f85b5ff',
+    thumbnailId: 'package:62137c1a-77ce-4456-bb05-9a4f66fd767a'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Ses1 Cat2 Fill2',
-    pennsieveId: 'package:423cfa79-e587-4c75-9de1-c782f5279d7f'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:423cfa79-e587-4c75-9de1-c782f5279d7f',
+    thumbnailId: 'package:90c5e51e-47e9-4298-8c28-c2b812f5b849'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Ses3 Cat1 Fill1',
-    pennsieveId: 'package:92a240cf-398d-4be1-b8a7-460f33bd2c51'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:92a240cf-398d-4be1-b8a7-460f33bd2c51',
+    thumbnailId: 'package:bd385a45-d1c9-4454-b6ff-43e3d92b2fe4'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Ses3 Cat1 Fill2',
-    pennsieveId: 'package:16a68a7b-43b7-44df-b6cd-9bceeb672fae'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:16a68a7b-43b7-44df-b6cd-9bceeb672fae',
+    thumbnailId: 'package:57b9a3f7-59e1-41cb-8881-da35293fec9a'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat2 Surgery1 postSurgery Fill1',
-    pennsieveId: 'package:27a5ab42-4b1c-4b9c-90c2-0019e7f8a871'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:27a5ab42-4b1c-4b9c-90c2-0019e7f8a871',
+    thumbnailId: 'package:35ad545f-69d3-4bb8-81ea-ee8400171b42'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat2 Surgery1 preSurgery Fill1',
-    pennsieveId: 'package:3e2d7ccb-5a09-4603-8963-2740021b1ee8'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:3e2d7ccb-5a09-4603-8963-2740021b1ee8',
+    thumbnailId: 'package:5832a1e9-bf93-423e-b006-25b80f10326f'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat2.2 Surgery2 Fill1',
-    pennsieveId: 'package:4bc1a212-4181-4b90-8284-853dfa96fbfe'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:4bc1a212-4181-4b90-8284-853dfa96fbfe',
+    thumbnailId: 'package:83f14e0a-a6b2-4e77-be9d-95f592ca4f6a'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat2.2 Surgery2 Fill2',
-    pennsieveId: 'package:1e5068f8-713b-41d3-8971-1e88d8ea9c6a'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:1e5068f8-713b-41d3-8971-1e88d8ea9c6a',
+    thumbnailId: 'package:30d72a4b-bf22-4a3a-abb1-d3506bc04993'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat2.3 Surgery3 Fill1',
-    pennsieveId: 'package:19694b51-ece7-4684-8be1-25962a1aa905'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:19694b51-ece7-4684-8be1-25962a1aa905',
+    thumbnailId: 'package:922958e8-74d0-491f-a1f1-7cc82e0c7e9d'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat2.3 Surgery3 Fill2',
-    pennsieveId: 'package:2f9dc2ff-6cb8-4f42-b722-257a93802672'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:2f9dc2ff-6cb8-4f42-b722-257a93802672',
+    thumbnailId: 'package:d690988c-5743-4ac3-b6b9-e6e878b0e0ed'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat3.1 Surgery1 PreOp Fill1',
-    pennsieveId: 'package:1c17c682-e2b9-4133-8b85-8514a34a3b9b'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:1c17c682-e2b9-4133-8b85-8514a34a3b9b',
+    thumbnailId: 'package:d04e2d0a-1619-45ae-baad-e9d3d3abf1a4'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat3.1 Surgery1 PostOp Fill1',
-    pennsieveId: 'package:27d06ed4-9213-4998-b3f1-8f9e3838a78c'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:27d06ed4-9213-4998-b3f1-8f9e3838a78c',
+    thumbnailId: 'package:384fde54-7965-43c1-bbcf-4be3f3d78927'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat3.2 Surgery2 Fill1',
-    pennsieveId: 'package:77b73911-cb68-47cd-80ab-3a75faab8bc1'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:77b73911-cb68-47cd-80ab-3a75faab8bc1',
+    thumbnailId: 'package:54ab98ce-c7b5-4e30-9eab-86b4373a9ad5'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat3.2 Surgery2 Fill2',
-    pennsieveId: 'package:8bdd898e-9651-4004-9552-b62e4320e941'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:8bdd898e-9651-4004-9552-b62e4320e941',
+    thumbnailId: 'package:6381f06b-03ae-4615-a7ed-05cdb40750c1'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat3.3 PostOp Day 30 Fill1',
-    pennsieveId: 'package:53f7411f-7dec-4f87-ae77-e2fa3bee15f3'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:53f7411f-7dec-4f87-ae77-e2fa3bee15f3',
+    thumbnailId: 'package:33bda4d7-3ea2-489f-a945-a6c3e283e4ad'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'ChronicCat 1.1.1',
-    pennsieveId: 'package:75fe41ad-61a4-4265-bda2-980dfb961338'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:75fe41ad-61a4-4265-bda2-980dfb961338',
+    thumbnailId: 'package:caa333ed-599e-4801-b18c-49145c9bdd2c',
+    additionalId: 'package:9478768a-f62b-4046-aa89-2a5bb7190dbc'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'ChronicCat 1.1.2',
-    pennsieveId: 'package:81b6f432-4521-4bc9-87a0-4f7cfd810676'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:81b6f432-4521-4bc9-87a0-4f7cfd810676',
+    thumbnailId: 'package:03174292-5b29-4bfe-8e12-e100270a41ab',
+    additionalId: 'package:145ddcf7-ca3e-4845-bcbd-e87467abcc27'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat4.2 Fill1',
-    pennsieveId: 'package:e2a419e6-b32c-415f-b224-52e828510229'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:e2a419e6-b32c-415f-b224-52e828510229',
+    thumbnailId: 'package:98492754-6509-470f-9dac-dbe20ef88f13',
+    additionalId: 'package:c4bc18da-fc84-4913-942c-47980e7a634b'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat4.2 Fill2',
-    pennsieveId: 'package:ccb90d56-1482-4085-b3e0-9ae1cd2e7ae1'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:ccb90d56-1482-4085-b3e0-9ae1cd2e7ae1',
+    thumbnailId: 'package:388e7d68-8e76-49f9-9f24-1373f01b06af',
+    additionalId: 'package:bf9cb636-9efb-4b75-9a7e-a01b3718bcf6'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat 4.3 Fill1',
-    pennsieveId: 'package:69cfce9d-3a32-4f07-86e9-3eefae9f9852'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:69cfce9d-3a32-4f07-86e9-3eefae9f9852',
+    thumbnailId: 'package:088bd5c0-e744-4904-bd13-c64a9d077538',
+    additionalId: 'package:9d158cd2-4832-40e6-a7a3-67467fa9eefc'
   },
   {
     datasetId: 145,
     type: 'plot',
     title: 'Cat4.3 Fill2',
-    pennsieveId: 'package:75f8aff0-036d-43da-b5e4-f5529f500eb2'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:75f8aff0-036d-43da-b5e4-f5529f500eb2',
+    thumbnailId: 'package:a84a74dd-a9c8-43ee-82b1-26107e74ec0c',
+    additionalId: 'package:0dfa5227-f9d1-4458-b204-ff1c23d2fb7f'
   },
   {
     datasetId: 148,
