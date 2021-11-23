@@ -210,91 +210,136 @@ export default [
     datasetId: 132,
     type: 'plot',
     title: 'postInsert Fill2',
-    pennsieveId: 'package:df3b16ef-53fd-4995-be3c-0a8de20ff407'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:df3b16ef-53fd-4995-be3c-0a8de20ff407',
+    thumbnailId: 'package:7efb2cea-9dc5-4445-8b90-3b968c50dcda',
+    additionalId: 'package:a280ae28-472f-4205-8d89-8a993e08eefb'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'bolusFill9',
-    pennsieveId: 'package:e284767d-c873-4fe4-b0a6-4fdefb8ce5f3'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:e284767d-c873-4fe4-b0a6-4fdefb8ce5f3',
+    thumbnailId: 'package:db2c9b97-c92b-4b09-88f9-054127ebd8f2',
+    additionalId: 'package:18032813-5dc6-4ea0-891a-bd53e34b1c46'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'bolusFill8',
-    pennsieveId: 'package:eaf1399c-8964-4969-847b-1b4fdc3e3344'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:eaf1399c-8964-4969-847b-1b4fdc3e3344',
+    thumbnailId: 'package:cbc7f8ab-15e4-4c3f-b8c7-519abfe64362',
+    additionalId: 'package:106561a9-5ed8-4601-bc92-7b592e327adb'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'bolusFill6',
-    pennsieveId: 'package:df646e8b-89f5-4504-bb00-c29563002733'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:df646e8b-89f5-4504-bb00-c29563002733',
+    thumbnailId: 'package:60e19c55-15ef-4538-9c66-476cdf5360bf',
+    additionalId: 'package:41296e40-23cf-46dd-9cf3-646521ff5e02'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'bolusFill5',
-    pennsieveId: 'package:dbe2eb8a-a445-49e8-afe1-bab77cfb1fb8'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:dbe2eb8a-a445-49e8-afe1-bab77cfb1fb8',
+    thumbnailId: 'package:149fa0da-b3b6-4254-9294-f8005b43590f',
+    additionalId: 'package:1302ef05-46b5-4301-a4ae-e79a6565ad20'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'bolusFill4',
-    pennsieveId: 'package:2b64f387-6d83-4a76-89a5-574378bd309b'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:2b64f387-6d83-4a76-89a5-574378bd309b',
+    thumbnailId: 'package:326b6ddb-89f7-4e1d-88ff-200a3a76eade',
+    additionalId: 'package:1302ef05-46b5-4301-a4ae-e79a6565ad20'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'bolusFill3',
-    pennsieveId: 'package:3e6909ed-6a98-4983-b068-94d81348dc3b'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:3e6909ed-6a98-4983-b068-94d81348dc3b',
+    thumbnailId: 'package:8b63faa9-ff98-458b-887d-37bbbf64aa86',
+    additionalId: 'package:555c0848-8cda-41f1-9681-f872d3d677e7'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'bolusFill2',
-    pennsieveId: 'package:3df8fd10-11c0-4975-bd0d-5e21fd90d0e8'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:3df8fd10-11c0-4975-bd0d-5e21fd90d0e8',
+    thumbnailId: 'package:acb6c150-7418-4df2-92bf-b8f7d7ac2a00',
+    additionalId: 'package:e56b2f6d-0a72-46a8-a566-f32adb0ff245'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'bolusFill1',
-    pennsieveId: 'package:08a6c8b8-bf23-4bbe-ba72-0cdc791fe632'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:08a6c8b8-bf23-4bbe-ba72-0cdc791fe632',
+    thumbnailId: 'package:a4f24715-0e65-41a5-be7e-29b71005f727',
+    additionalId: 'package:30cd3d4e-41e8-469c-8446-fc9e5a890c8b'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'Side Position Fill2',
-    pennsieveId: 'package:7e4d80fd-4f4f-4d6c-a0ca-a75d6ffaa97e'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:7e4d80fd-4f4f-4d6c-a0ca-a75d6ffaa97e',
+    thumbnailId: 'package:3303e95e-bb30-4248-bed4-d55caabc4499',
+    additionalId: 'package:04b1dfd6-3004-4ac5-b8ee-8845a96c97c2'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'Side Position Fill1',
-    pennsieveId: 'package:ff8b8027-3d76-4cc3-a22d-691e4f4203cc'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:ff8b8027-3d76-4cc3-a22d-691e4f4203cc',
+    thumbnailId: 'package:7af18f5c-5194-4a6f-bb3e-0e8a048ad55d',
+    additionalId: 'package:8aa8ba8e-5cf4-441c-812c-1dd8c0cfa2bb',
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'postInsert Fill1',
-    pennsieveId: 'package:b32488c8-7e12-448d-b7e8-451234704452'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:b32488c8-7e12-448d-b7e8-451234704452',
+    thumbnailId: 'package:0cd3f8a9-97db-4199-a7cf-c2b23764b09c',
+    additionalId: 'package:4cfbd8cc-9287-4b75-bf11-b49f1c6b1b48'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'preInsert',
-    pennsieveId: 'package:26f34b72-9d51-4437-834a-859956d4a5c2'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:26f34b72-9d51-4437-834a-859956d4a5c2',
+    thumbnailId: 'package:b2fea8d4-e160-48c4-afd4-fd3cec23f669',
+    additionalId: 'package:a3eed62d-e98f-4514-8a82-4d5695d56fcb'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'Baseline Fill2 Acute Cat 1',
-    pennsieveId: 'package:d53a87a0-1cac-42ff-8c4d-ef18639916bc'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:d53a87a0-1cac-42ff-8c4d-ef18639916bc',
+    thumbnailId: 'package:a7961260-c6b2-4fa7-9347-44ee0e75da24',
+    additionalId: 'package:c888e51e-b5e8-49ac-8963-b0bcca2ff87c'
   },
   {
     datasetId: 132,
     type: 'plot',
     title: 'Baseline Fill1 Acute Cat 1',
-    pennsieveId: 'package:635814c0-1b57-414e-a43e-db2fd03477fe'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    pennsieveId: 'package:635814c0-1b57-414e-a43e-db2fd03477fe',
+    thumbnailId: 'package:2a5d42a2-1325-4ceb-a480-4d1237675c42',
+    additionalId: 'package:025a44f1-681e-4ad3-9d4e-b73c84df1227'
   },
   {
     datasetId: 126,
