@@ -13,6 +13,7 @@
               :data-source="{ url: source_url }"
               :metadata="metadata"
               :supplemental-data="supplemental_data"
+              :plot-layout="layout"
             />
           </div>
         </client-only>
@@ -99,8 +100,13 @@ export default {
       }
       let metadata = curation.metadata
       console.log('source', source_url, metadata, supplemental_data)
+
+      let layout = {}
+      if (curation.layout) {
+        layout = curation.layout
+      }
       // let source_url = source_url_response.data.result[0].url
-      return {source_url, metadata, supplemental_data}
+      return {source_url, metadata, supplemental_data, layout}
     }
 
     if ('abi-plot' in firstResult){
@@ -135,7 +141,7 @@ export default {
         let supplemental_url = supplemental_url_response.data
         if (process.env.portal_api === 'http://localhost:8000') {
           supplemental_url = `${process.env.portal_api}/s3-resource/${supplemental_file_path}`
-        }
+        }     
         supplemental_data.push({
           url: supplemental_url
         })

@@ -195,6 +195,15 @@ export default [
     type: 'plot',
     title: 'Pig013 ICNS15 Hemodynamics',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis-column": 2, "y-axes-columns": [3, 4, 5, 6]}},
+    layout: {
+      margin: {
+        t: 35,
+        l: 55,
+        r: 55,
+        b: 190,
+        pad: 4
+      }
+    },
     pennsieveId: 'package:ecd9693d-d6aa-43f6-9371-0c693aab445c',
     thumbnailId: 'package:30132148-93a7-4c91-8201-8daeccfe5c1a'
   },
