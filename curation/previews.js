@@ -195,15 +195,6 @@ export default [
     type: 'plot',
     title: 'Pig013 ICNS15 Hemodynamics',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis-column": 2, "y-axes-columns": [3, 4, 5, 6]}},
-    layout: {
-      margin: {
-        t: 35,
-        l: 55,
-        r: 55,
-        b: 190,
-        pad: 4
-      }
-    },
     pennsieveId: 'package:ecd9693d-d6aa-43f6-9371-0c693aab445c',
     thumbnailId: 'package:30132148-93a7-4c91-8201-8daeccfe5c1a'
   },
@@ -841,145 +832,193 @@ export default [
     datasetId: 148,
     type: 'plot',
     title: '20_0730',
-    pennsieveId: 'package:a112a193-ea69-4821-954e-24655ea969a4'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:a112a193-ea69-4821-954e-24655ea969a4',
+    thumbnailId: 'package:8f122397-1663-453b-8982-d76da85596d8'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '20_1117',
-    pennsieveId: 'package:a0868fa9-f720-4b9f-9f67-c5d04db8a53e'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:a0868fa9-f720-4b9f-9f67-c5d04db8a53e',
+    thumbnailId: 'package:32737ed8-7e26-4171-baf1-baa2046f0bee'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '20_1119',
-    pennsieveId: 'package:5590fdc3-85b3-42bf-a77d-d4f1585bc424'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:5590fdc3-85b3-42bf-a77d-d4f1585bc424',
+    thumbnailId: 'package:87937959-8dc4-4fb5-bbfe-4a952dffc7d9'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '20_1120',
-    pennsieveId: 'package:0fa897cd-fc99-4140-beef-fcc261e7a529'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:0fa897cd-fc99-4140-beef-fcc261e7a529',
+    thumbnailId: 'package:24789648-ba50-46d0-abc3-a9f547860d0a'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '20_1201',
-    pennsieveId: 'package:d494d5df-0d9c-419b-bd16-c426d37f4917'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:d494d5df-0d9c-419b-bd16-c426d37f4917',
+    thumbnailId: 'package:722617d9-e44d-47da-9e2c-410907b7b3fb'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '20_1214a',
-    pennsieveId: 'package:9ae5c331-3910-4780-b096-9c888e5d691d'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:9ae5c331-3910-4780-b096-9c888e5d691d',
+    thumbnailId: 'package:e6faee0a-5501-4ebe-a3f8-de642e2b2694'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '20_1215',
-    pennsieveId: 'package:98731b79-f86c-4067-8e5a-615ea8aa96cf'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:98731b79-f86c-4067-8e5a-615ea8aa96cf',
+    thumbnailId: 'package:d4bc798e-1248-452b-b5ef-f569085d1d74'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0104',
-    pennsieveId: 'package:7e85c332-0f40-461e-a2b8-fbe43e768332'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:7e85c332-0f40-461e-a2b8-fbe43e768332',
+    thumbnailId: 'package:5faf9536-0ed7-406e-8e9e-a0ddb9977013'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0105a',
-    pennsieveId: 'package:e0bd4535-bdb9-44e5-ac2a-5bd41e187a1d'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:e0bd4535-bdb9-44e5-ac2a-5bd41e187a1d',
+    thumbnailId: 'package:e6a5c3de-6061-47ca-a055-b98c14ca5c01'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0105b',
-    pennsieveId: 'package:060c5284-7c4d-4db9-91a9-6aa5ca5c38c4'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:060c5284-7c4d-4db9-91a9-6aa5ca5c38c4',
+    thumbnailId: 'package:324f1f4e-7b75-4792-b413-63807112028e'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0106',
-    pennsieveId: 'package:e0810cd6-62c8-41af-ab80-2ca4128fef3a'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:e0810cd6-62c8-41af-ab80-2ca4128fef3a',
+    thumbnailId: 'package:a68727a4-cb10-4d50-a22f-97309437c51e'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0107',
-    pennsieveId: 'package:17aa92b9-a00a-437d-afea-2bf9d744a1d3'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:17aa92b9-a00a-437d-afea-2bf9d744a1d3',
+    thumbnailId: 'package:ea36733b-89d7-4f4d-a1ef-ca13337ed6d3'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0119',
-    pennsieveId: 'package:64f9e242-702e-4a11-a6bc-10e47289b802'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:64f9e242-702e-4a11-a6bc-10e47289b802',
+    thumbnailId: 'package:23a0ee76-c36e-4a6e-9d69-12768fac786a'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0120',
-    pennsieveId: 'package:c7e01757-a77e-41c8-925c-9dd525e34779'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:c7e01757-a77e-41c8-925c-9dd525e34779',
+    thumbnailId: 'package:6372b90a-dde4-49d5-a1e2-e9d863ef7ea8'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0202',
-    pennsieveId: 'package:8268251b-c676-4669-8873-f5820355fb78'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:8268251b-c676-4669-8873-f5820355fb78',
+    thumbnailId: 'package:b73bc0eb-e91f-44c8-ac86-38f720d438dc'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0203a',
-    pennsieveId: 'package:7c0900e0-56e5-4370-97c4-42ad40d83e7c'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:7c0900e0-56e5-4370-97c4-42ad40d83e7c',
+    thumbnailId: 'package:0bd0b90f-de4b-4574-8d96-cae867ca6db6'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0203b',
-    pennsieveId: 'package:4211e9ee-12cf-470c-9dcd-a9b9e6265300'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:4211e9ee-12cf-470c-9dcd-a9b9e6265300',
+    thumbnailId: 'package:221d150d-9aae-493b-8e8a-e52102fbca37'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0315',
-    pennsieveId: 'package:b34a4cea-4f22-4a75-8909-189269648976'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:b34a4cea-4f22-4a75-8909-189269648976',
+    thumbnailId: 'package:55560a92-a247-40f4-a2c8-b44cd1f62620'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0316b',
-    pennsieveId: 'package:d62a3323-6e3d-41c1-aada-3fe885525096'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:d62a3323-6e3d-41c1-aada-3fe885525096',
+    thumbnailId: 'package:f1aad2e3-312d-4316-b9ac-b8ca2e3746d2'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0318a',
-    pennsieveId: 'package:7399d9e4-b0c7-45dc-bcf1-f50ff63b188a'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:7399d9e4-b0c7-45dc-bcf1-f50ff63b188a',
+    thumbnailId: 'package:a0e6708f-a890-44e5-9abb-89c9b7b4ddc9'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0318b',
-    pennsieveId: 'package:9f7e7ef8-80b3-4dec-858b-947ef232a625'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:9f7e7ef8-80b3-4dec-858b-947ef232a625',
+    thumbnailId: 'package:860f8448-ba52-485b-b087-43467a347a7f'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0319',
-    pennsieveId: 'package:b21217ec-eb55-410c-9c17-bfd0adef182d'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:b21217ec-eb55-410c-9c17-bfd0adef182d',
+    thumbnailId: 'package:a8fc885f-0d8d-4a00-8a08-b1bd0b0c3431'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0326',
-    pennsieveId: 'package:1ff02559-b9c7-41bd-bae6-d9d2b116b7d3'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:1ff02559-b9c7-41bd-bae6-d9d2b116b7d3',
+    thumbnailId: 'package:b89c2ad2-32f6-45f8-a233-74a712ae5ff2'
   },
   {
     datasetId: 148,
     type: 'plot',
     title: '21_0329b',
-    pennsieveId: 'package:ec21fb67-037b-4dc0-be56-de2ecef1a0a5'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    pennsieveId: 'package:ec21fb67-037b-4dc0-be56-de2ecef1a0a5',
+    thumbnailId: 'package:513f936c-6811-45a1-a41d-63df8733aeac'
   },
   {
     datasetId: 142,
@@ -1237,73 +1276,95 @@ export default [
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20180809_G5',
-    pennsieveId: 'package:0de9ac31-9f4d-48af-8b4a-7b8e38bf7ee9'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
+    pennsieveId: 'package:0de9ac31-9f4d-48af-8b4a-7b8e38bf7ee9',
+    thumbnailId: 'package:1048bf77-9423-4cb1-b77a-b5f1f3635b1c'
   },
   {
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20180813_G5',
-    pennsieveId: 'package:d7e3d21a-2290-405b-a6f2-bbef20595d9a'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
+    pennsieveId: 'package:d7e3d21a-2290-405b-a6f2-bbef20595d9a',
+    thumbnailId: 'package:8264e36d-47f6-4a5c-b2d3-8019e721b744'
   },
   {
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20180821_G5',
-    pennsieveId: 'package:bce0c156-00e8-4586-a578-78380e806189'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2]}},
+    pennsieveId: 'package:bce0c156-00e8-4586-a578-78380e806189',
+    thumbnailId: 'package:0ffc3745-304b-45d4-bc2d-add5f1f7974b'
   },
   {
     datasetId: 124,
     type: 'plot',
-    title: 'ISP_20180827_G5',
-    pennsieveId: 'package:224c669d-2be3-484d-afc4-00504e7b42ff'
+    title: 'ISP_20180827_G3',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2]}},
+    pennsieveId: 'package:224c669d-2be3-484d-afc4-00504e7b42ff',
+    thumbnailId: 'package:cb48b5a1-9559-4748-ba8a-99b58b12420b'
   },
   {
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20180828_G2',
-    pennsieveId: 'package:d2182a1f-1d16-4bff-b83b-fa06a9db9b4d'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3, 4, 5, 6]}},
+    pennsieveId: 'package:d2182a1f-1d16-4bff-b83b-fa06a9db9b4d',
+    thumbnailId: 'package:9a30cb3f-2f77-4ec8-a33d-40f1ed600856'
   },
   {
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20180905_G1',
-    pennsieveId: 'package:392e4256-1f5d-4c3a-9f29-5602c7d51f82'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3, 4]}},
+    pennsieveId: 'package:392e4256-1f5d-4c3a-9f29-5602c7d51f82',
+    thumbnailId: 'package:0afc9d87-2831-418b-be19-5b0638938218'
   },
   {
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20180906_G3',
-    pennsieveId: 'package:876f8bf5-b0e0-4ce4-8a51-35b6ae127142'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3, 4, 5, 6]}},
+    pennsieveId: 'package:876f8bf5-b0e0-4ce4-8a51-35b6ae127142',
+    thumbnailId: 'package:c865c591-3fa2-46ea-ab97-5fa97a32db0d'
   },
-  {
+  { 
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20180911_G5',
-    pennsieveId: 'package:23de167c-6a27-4fee-9373-bf70d72861db'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
+    pennsieveId: 'package:23de167c-6a27-4fee-9373-bf70d72861db',
+    thumbnailId: 'package:aeb54cc5-7d8a-4928-a86b-0ee6f0ff0a37'
   },
   {
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20180912_G5',
-    pennsieveId: 'package:f051e0a4-7183-4daf-87a5-0e8206273681'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3, 4, 5, 6]}},
+    pennsieveId: 'package:f051e0a4-7183-4daf-87a5-0e8206273681',
+    thumbnailId: 'package:808a4001-318d-42a7-88f5-9cc3cac962da'
   },
   {
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20181009_G5',
-    pennsieveId: 'package:6e090115-646f-4263-8c8d-5130f20f89e9'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
+    pennsieveId: 'package:6e090115-646f-4263-8c8d-5130f20f89e9',
+    thumbnailId: 'package:6691464a-4750-480a-9ec8-9238b6d58247'
   },
   {
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20181018_G1',
-    pennsieveId: 'package:85a5e8f3-8458-4a5d-903e-1409338333e7'
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3, 4, 5, 6, 7]}},
+    pennsieveId: 'package:85a5e8f3-8458-4a5d-903e-1409338333e7',
+    thumbnailId: 'package:84ba74a8-8d84-498e-a070-ff629c5a23b3'
   },
   {
     datasetId: 124,
     type: 'plot',
     title: 'ISP_20181018_G3',
-    pennsieveId: 'package:3e2212fa-9982-4ba0-8f4f-bcc0eb1850b3'
+    pennsieveId: 'package:3e2212fa-9982-4ba0-8f4f-bcc0eb1850b3',
   },
   {
     datasetId: 124,
