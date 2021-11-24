@@ -101,9 +101,9 @@ export default {
       let metadata = curation.metadata
       console.log('source', source_url, metadata, supplemental_data)
 
-      let layout = {}
+      let layout = { height: 667 }
       if (curation.layout) {
-        layout = curation.layout
+        Object.assign(layout, curation.layout)
       }
       // let source_url = source_url_response.data.result[0].url
       return {source_url, metadata, supplemental_data, layout}
@@ -166,7 +166,10 @@ export default {
           type: 'plot'
         }
       ],
-      activeTab: 'plot'
+      activeTab: 'plot',
+      layout: {
+        height: 667
+      }
     }
   },
   computed: {
