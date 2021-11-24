@@ -1025,7 +1025,7 @@ export default [
     type: 'plot',
     title: 'Sub10 Sam1 Pressure Preconditioning',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis-column": 2, "y-axes-columns": [3, 4, 5, 6, 7, 8, 9, 10]}},
-    layout: {margin: {t: 0, l: 0, r: 0, b: 200, pad: 4}},
+    layout: {margin: {t: 35, l: 55, r: 55, b: 190, pad: 5}},
     pennsieveId: 'package:10d905a5-9cd1-4dc8-af79-8bd9c9551be6',
     thumbnailId: 'package:a70a171e-2185-4b87-b3ef-819e923fafb7',
     additionalId: 'package:7e0a747d-a6de-4ad4-8c1e-bd103b0bd6d4'
