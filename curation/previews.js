@@ -1815,5 +1815,13 @@ export default [
     type: 'plot',
     title: 'T12 30Hz Stimulation, Afferent and Efferent fibres',
     pennsieveId: 'package:4479e1e1-263f-4ab1-b5d8-a61d4358e13a'
+  },
+  {
+    datasetId: 131,
+    type: 'plot',
+    title: 'Normalised sequencing data',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 100, r: 55, b: 190, pad: 5}},
+    pennsieveId: 'package:1a08e704-def1-4f71-9a51-2cc3da82760b'
   }
 ]
