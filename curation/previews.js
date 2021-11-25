@@ -1736,6 +1736,7 @@ export default [
     datasetId: 153,
     type: 'plot',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 55, r: 55, b: 190, pad: 5}},
     title: 'Rectal temperature change',
     pennsieveId: 'package:93869d71-fc32-43b3-8952-2a9d5920f235',
     thumbnailId: 'package:9f2726bc-71c8-4c62-b74a-b43ec2034d7b'
@@ -1744,6 +1745,7 @@ export default [
     datasetId: 153,
     type: 'plot',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 55, r: 55, b: 190, pad: 5}},
     title: 'Rectal temperature data',
     pennsieveId: 'package:9cc575d8-287c-4384-89e0-514ea46182d0',
     thumbnailId: 'package:39d522d7-3383-4033-aed7-53519aef345e'
@@ -1753,6 +1755,7 @@ export default [
     type: 'plot',
     title: 'iBAT temperature change',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 55, r: 55, b: 190, pad: 5}},
     pennsieveId: 'package:a49f708c-341d-4db0-80e2-d12970b671f9',
     thumbnailId: 'package:816dc01f-fefd-436d-b465-21471682598b'
   },
@@ -1761,6 +1764,7 @@ export default [
     type: 'plot',
     title: 'iBAT temperature data',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 55, r: 55, b: 190, pad: 5}},
     pennsieveId: 'package:b0ea3d0b-2649-422c-afe8-2ebccd432c69',
     thumbnailId: 'package:bc8484a8-d74c-48c1-8da4-6fffa559e3fd'
   },
