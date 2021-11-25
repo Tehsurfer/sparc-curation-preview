@@ -1543,7 +1543,7 @@ export default [
   {
     datasetId: 124,
     type: 'plot',
-    title: 'ISP_20190226_G2',,
+    title: 'ISP_20190226_G2',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis-column": 1, "y-axes-columns": [2, 3, 4]}},
     pennsieveId: 'package:648bea83-be18-4ada-9e7b-c80b0b3af329',
     thumbnailId: 'package:76678bb3-d9a4-49ae-91a8-75ee9e3a2ed4'
@@ -1772,49 +1772,65 @@ export default [
     datasetId: 149,
     type: 'plot',
     title: 'L1 10Hz Stimulation, Afferent fibres',
-    pennsieveId: 'package:361648a2-2e9c-496e-aca8-3b04c4b668bf'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:361648a2-2e9c-496e-aca8-3b04c4b668bf',
+    thumbnailId: 'package:f1a96b94-d8a5-436f-97a4-27b21862e481'
   },
   {
     datasetId: 149,
     type: 'plot',
     title: 'L1 10Hz Stimulation, Afferent and Efferent fibres',
-    pennsieveId: 'package:363e6489-d3f5-49ca-87a7-1646265d1582'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:363e6489-d3f5-49ca-87a7-1646265d1582',
+    thumbnailId: 'package:44281b1b-a5bf-4f2a-a519-de663f0585ec'
   },
   {
     datasetId: 149,
     type: 'plot',
     title: 'L1 30Hz Stimulation, Afferent fibres',
-    pennsieveId: 'package:4c176c6a-43a1-4ecf-b443-26730212b64a'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:4c176c6a-43a1-4ecf-b443-26730212b64a',
+    thumbnailId: 'package:14b018f7-d82e-43c2-b320-827c61888355'
   },
   {
     datasetId: 149,
     type: 'plot',
     title: 'L1 30Hz Stimulation, Afferent and Efferent fibres',
-    pennsieveId: 'package:487cd760-3bb4-434f-b94d-1a934fcd118c'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:487cd760-3bb4-434f-b94d-1a934fcd118c',
+    thumbnailId: 'package:84ffef92-acd6-466e-84e0-7777dc08289c'
   },
   {
     datasetId: 149,
     type: 'plot',
     title: 'T12 10Hz Stimulation, Afferent Fibres',
-    pennsieveId: 'package:5c12696c-f0b3-478a-abc3-218675765285'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:5c12696c-f0b3-478a-abc3-218675765285',
+    thumbnailId: 'package:e4d07e61-6ae3-4a5d-8840-9e92264615b6'
   },
   {
     datasetId: 149,
     type: 'plot',
     title: 'T12 10Hz Stimulation, Afferent and Efferent fibres',
-    pennsieveId: ''
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:12a316a6-bd11-4ce2-af92-fd1e6c975027',
+    thumbnailId: 'package:039cd02e-a5bd-48b7-ae91-b3e094da1840'
   },
   {
     datasetId: 149,
     type: 'plot',
     title: 'T12 30Hz Stimulation, Afferent fibres',
-    pennsieveId: 'package:b145c58b-d444-4022-a4a3-c30ff5184b41'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:b145c58b-d444-4022-a4a3-c30ff5184b41',
+    thumbnailId: 'package:77502660-2da9-49e1-a294-f6286447de2a'
   },
   {
     datasetId: 149,
     type: 'plot',
     title: 'T12 30Hz Stimulation, Afferent and Efferent fibres',
-    pennsieveId: 'package:4479e1e1-263f-4ab1-b5d8-a61d4358e13a'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    pennsieveId: 'package:4479e1e1-263f-4ab1-b5d8-a61d4358e13a',
+    thumbnailId: 'package:64b3f593-487d-4ab2-a8dd-28e32975d321'
   },
   {
     datasetId: 131,
