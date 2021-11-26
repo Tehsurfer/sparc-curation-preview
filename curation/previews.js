@@ -39,6 +39,21 @@ export default [
     additionalId: 'package:b092a8c0-c684-4bb6-8383-f9de478473e8'
   },
   {
+    datasetId: 141,
+    type: 'plot',
+    title: 'subject3.txt',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "delimiter": "tab", "y-axes-columns": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "no-header": true}},
+    pennsieveId: 'package:ea813c23-e110-46ba-815f-d134b955a8b5',
+  },
+  {
+    datasetId: 141,
+    type: 'plot',
+    title: 'RAGP_4subs_negddct_matrix',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 190, pad: 4}},
+    pennsieveId: 'package:f3316fd4-6dcb-45d4-9b45-b4c3f8b8331d',
+  },
+  {
     datasetId: 29,
     type: 'plot',
     title: 'HB-ICN-NegDDCT',
