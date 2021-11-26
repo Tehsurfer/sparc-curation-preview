@@ -42,7 +42,8 @@ export default [
     datasetId: 29,
     type: 'plot',
     title: 'HB-ICN-NegDDCT',
-    metadata: { version: '1.2.0', type: 'plot', attrs: { style: 'heatmap', columnHeaderIndex: 1, columnHeaderSize: 3 } },
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:975df3ca-ff23-4c50-829b-b28eba4f423a',
     thumbnailId: 'package:cbfda02a-e982-40fb-b7cb-8bb5c70e24d6'
   },
@@ -50,8 +51,10 @@ export default [
     datasetId: 118,
     type: 'plot',
     title: 'PR1705_Negddct',
-    metadata: { version: '1.2.0', type: 'plot', attrs: { style: 'heatmap', columnHeaderIndex: 1, columnHeaderSize: 3 } },
-    pennsieveId: 'package:5febabcf-6e49-4d6c-9163-d6e04fc811f8'
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
+    pennsieveId: 'package:5febabcf-6e49-4d6c-9163-d6e04fc811f8',
+    thumbnailId: 'package:314ad290-4aeb-4639-b307-63b1174238e7'
   },
   {
     datasetId: 139,
@@ -74,20 +77,25 @@ export default [
     type: 'plot',
     title: 'PR1643_Negddct',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    pennsieveId: 'package:4b82a35a-7914-4080-85fa-f15fb6f984c0'
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
+    pennsieveId: 'package:4b82a35a-7914-4080-85fa-f15fb6f984c0',
+    thumbnailId: 'package:fa18cdb2-a910-49f1-9df9-63618153349b'
   },
   {
     datasetId: 117,
     type: 'plot',
     title: 'PR1643 normalised gene counts',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    pennsieveId: 'package:3730b83a-42d4-44b9-b90e-6f6fefa5b29b'
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
+    pennsieveId: 'package:3730b83a-42d4-44b9-b90e-6f6fefa5b29b',
+    thumbnailId: 'package:e9f62128-785c-4615-a09b-a64da2c890b7'
   },
   {
     datasetId: 116,
     type: 'plot',
     title: 'PR1643-142 Samples Raw Gene Counts',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:7b1a5fe7-c8de-4c29-8c69-69b8186ccffe',
     thumbnailId: 'package:af55ea97-5789-4113-852d-9e5a277cb4e6'
   },
@@ -96,6 +104,7 @@ export default [
     type: 'plot',
     title: 'PR1643 Normalised Gene Counts',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:f13a41ae-edd7-408c-89f5-477a23be9591',
     thumbnailId: 'package:8ad4b25c-e979-4f88-8a42-71f8c0f5f309'
   },
@@ -104,6 +113,7 @@ export default [
     type: 'plot',
     title: 'RAGP_4subs_final_negddct_matrix',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:dc315029-255d-4c41-86de-4b857d6149a9',
     thumbnailId: 'package:c68657f2-383d-467d-a98e-6bfd98694935'
   },
@@ -112,6 +122,7 @@ export default [
     type: 'plot',
     title: 'RAGP_4subs_negdct',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:3df73fd7-2903-4880-80c6-ceb8f9b061ef',
     thumbnailId: 'package:1fa4bf27-a49d-4b04-8eb2-dbebad2d88d9'
   },
@@ -120,6 +131,7 @@ export default [
     type: 'plot',
     title: 'RAGP_4subs_negddct',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:156174dc-06e4-4b35-9ffa-2c4f01c91ba4',
     thumbnailId: 'package:468e45e5-00fc-4b7b-a822-7e9b4f77296a'
   },
@@ -127,7 +139,8 @@ export default [
     datasetId: 119,
     type: 'plot',
     title: 'RAGP_4subs_raw_Ct',
-    metadata: { version: '1.2.0', type: 'plot', attrs: { style: 'heatmap', columnHeaderIndex: 1, columnHeaderSize: 3 } },
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:ac7c976a-459a-4d32-ae43-09cd89340480',
     thumbnailId: 'package:6ab78c2e-f66f-44bb-9d32-70070ce604c5'
   },
@@ -136,35 +149,45 @@ export default [
     type: 'plot',
     title: 'RAGP_4subs_negddct_matrix',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    pennsieveId: 'package:ebb762ff-7c4a-41ac-ad45-c8044e499832'
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
+    pennsieveId: 'package:ebb762ff-7c4a-41ac-ad45-c8044e499832',
+    thumbnailId: 'package:c97775a9-d616-4a42-ac93-3dec503bb5c5'
   },
   {
     datasetId: 115,
     type: 'plot',
     title: 'RAGP_4subs_raw_Ct',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    pennsieveId: 'package:a6c01a56-30f0-4156-b4d1-758bc8e3f7b1'
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
+    pennsieveId: 'package:a6c01a56-30f0-4156-b4d1-758bc8e3f7b1',
+    thumbnailId: 'package:a9ac5be0-1db8-4552-8172-745d9b42a09b'
   },
   {
     datasetId: 115,
     type: 'plot',
     title: 'RNAseq_PR1643 Normalised Gene Counts',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    pennsieveId: 'package:5e2789e7-746c-4b38-abd1-f979dedc33ff'
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
+    pennsieveId: 'package:5e2789e7-746c-4b38-abd1-f979dedc33ff',
+    thumbnailId: 'package:6b5e7237-d27b-41d0-8c23-f1cca7e5f3ae'
   },
   {
     datasetId: 115,
     type: 'plot',
     title: 'Genes 60% Expression Across All RAGP',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    pennsieveId: 'package:8b9aa0e6-d79d-48fe-913b-fdbf08dcda88'
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
+    pennsieveId: 'package:8b9aa0e6-d79d-48fe-913b-fdbf08dcda88',
+    thumbnailId: 'package:019e165b-da95-427d-9241-d336af71054c'
   },
   {
     datasetId: 115,
     type: 'plot',
     title: 'Neuronally Enriched GTEx Genes in our Data',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    pennsieveId: 'package:30617cbc-f321-4d4c-ad01-d0dc014b7b14'
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
+    pennsieveId: 'package:30617cbc-f321-4d4c-ad01-d0dc014b7b14',
+    thumbnailId: 'package:c6222010-efdd-4cc4-a936-0e9525e75f5a'
   },
   {
     datasetId: 26,
@@ -1736,7 +1759,7 @@ export default [
     datasetId: 153,
     type: 'plot',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    layout: {margin: {t: 35, l: 150, r: 55, b: 190, pad: 5}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     title: 'Rectal temperature change',
     pennsieveId: 'package:93869d71-fc32-43b3-8952-2a9d5920f235',
     thumbnailId: 'package:9f2726bc-71c8-4c62-b74a-b43ec2034d7b'
@@ -1745,7 +1768,7 @@ export default [
     datasetId: 153,
     type: 'plot',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    layout: {margin: {t: 35, l: 150, r: 55, b: 190, pad: 5}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     title: 'Rectal temperature data',
     pennsieveId: 'package:9cc575d8-287c-4384-89e0-514ea46182d0',
     thumbnailId: 'package:39d522d7-3383-4033-aed7-53519aef345e'
@@ -1755,7 +1778,7 @@ export default [
     type: 'plot',
     title: 'iBAT temperature change',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    layout: {margin: {t: 35, l: 150, r: 55, b: 190, pad: 5}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:a49f708c-341d-4db0-80e2-d12970b671f9',
     thumbnailId: 'package:816dc01f-fefd-436d-b465-21471682598b'
   },
@@ -1764,7 +1787,7 @@ export default [
     type: 'plot',
     title: 'iBAT temperature data',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    layout: {margin: {t: 35, l: 150, r: 55, b: 190, pad: 5}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:b0ea3d0b-2649-422c-afe8-2ebccd432c69',
     thumbnailId: 'package:bc8484a8-d74c-48c1-8da4-6fffa559e3fd'
   },
@@ -1773,6 +1796,7 @@ export default [
     type: 'plot',
     title: 'L1 10Hz Stimulation, Afferent fibres',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:361648a2-2e9c-496e-aca8-3b04c4b668bf',
     thumbnailId: 'package:f1a96b94-d8a5-436f-97a4-27b21862e481'
   },
@@ -1781,6 +1805,7 @@ export default [
     type: 'plot',
     title: 'L1 10Hz Stimulation, Afferent and Efferent fibres',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:363e6489-d3f5-49ca-87a7-1646265d1582',
     thumbnailId: 'package:44281b1b-a5bf-4f2a-a519-de663f0585ec'
   },
@@ -1789,6 +1814,7 @@ export default [
     type: 'plot',
     title: 'L1 30Hz Stimulation, Afferent fibres',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:4c176c6a-43a1-4ecf-b443-26730212b64a',
     thumbnailId: 'package:14b018f7-d82e-43c2-b320-827c61888355'
   },
@@ -1797,6 +1823,7 @@ export default [
     type: 'plot',
     title: 'L1 30Hz Stimulation, Afferent and Efferent fibres',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:487cd760-3bb4-434f-b94d-1a934fcd118c',
     thumbnailId: 'package:84ffef92-acd6-466e-84e0-7777dc08289c'
   },
@@ -1805,6 +1832,7 @@ export default [
     type: 'plot',
     title: 'T12 10Hz Stimulation, Afferent Fibres',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:5c12696c-f0b3-478a-abc3-218675765285',
     thumbnailId: 'package:e4d07e61-6ae3-4a5d-8840-9e92264615b6'
   },
@@ -1813,6 +1841,7 @@ export default [
     type: 'plot',
     title: 'T12 10Hz Stimulation, Afferent and Efferent fibres',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:12a316a6-bd11-4ce2-af92-fd1e6c975027',
     thumbnailId: 'package:039cd02e-a5bd-48b7-ae91-b3e094da1840'
   },
@@ -1821,6 +1850,7 @@ export default [
     type: 'plot',
     title: 'T12 30Hz Stimulation, Afferent fibres',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:b145c58b-d444-4022-a4a3-c30ff5184b41',
     thumbnailId: 'package:77502660-2da9-49e1-a294-f6286447de2a'
   },
@@ -1829,6 +1859,7 @@ export default [
     type: 'plot',
     title: 'T12 30Hz Stimulation, Afferent and Efferent fibres',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:4479e1e1-263f-4ab1-b5d8-a61d4358e13a',
     thumbnailId: 'package:64b3f593-487d-4ab2-a8dd-28e32975d321'
   },
@@ -1837,7 +1868,7 @@ export default [
     type: 'plot',
     title: 'Normalised sequencing data',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    layout: {margin: {t: 35, l: 100, r: 55, b: 190, pad: 5}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 190, pad: 4}},
     pennsieveId: 'package:1a08e704-def1-4f71-9a51-2cc3da82760b',
     thumbnailId: 'package:c5e59fcf-79a0-407a-84ec-52caac2c37a7'
   },
@@ -1846,7 +1877,7 @@ export default [
     type: 'plot',
     title: 'Normalised sequencing data',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    layout: {margin: {t: 35, l: 170, r: 55, b: 190, pad: 5}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 190, pad: 4}},
     pennsieveId: 'package:c0836292-71c0-48fb-959d-1ead3e8fc198',
     thumbnailId: 'package:f7102f30-6b65-4152-83d4-6bbb782f4d79'
   }
