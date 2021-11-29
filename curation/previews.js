@@ -1893,7 +1893,7 @@ export default [
     title: 'Normalised sequencing data',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
     layout: {margin: {t: 1000, l: 200, r: 200, b: 200, pad: 4}},
-    pennsieveId: 'package:981fa90f-cd61-438a-b29f-24fb7ef59a47',
+    pennsieveId: 'package:f369aa8a-b182-42b7-9b28-89ca44365e6f',
     thumbnailId: 'package:f7102f30-6b65-4152-83d4-6bbb782f4d79'
   }
 ]
