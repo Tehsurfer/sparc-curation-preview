@@ -1892,8 +1892,8 @@ export default [
     type: 'plot',
     title: 'Normalised sequencing data',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    layout: {margin: {t: 500, l: 200, r: 200, b: 200, pad: 4}},
-    pennsieveId: 'package:76b56e74-aa54-43eb-9103-c2b6f15f8bcd',
+    layout: {margin: {t: 1000, l: 200, r: 200, b: 200, pad: 4}},
+    pennsieveId: 'package:981fa90f-cd61-438a-b29f-24fb7ef59a47',
     thumbnailId: 'package:f7102f30-6b65-4152-83d4-6bbb782f4d79'
   }
 ]
