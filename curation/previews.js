@@ -1888,6 +1888,14 @@ export default [
     thumbnailId: 'package:c5e59fcf-79a0-407a-84ec-52caac2c37a7'
   },
   {
+    datasetId: 131,
+    type: 'plot',
+    title: 'Normalised sequencing data (filtered)',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 190, pad: 4}},
+    pennsieveId: 'package:faf126d8-ed3a-4e7c-9714-6c443eebcd8e'
+  },
+  {
     datasetId: 140,
     type: 'plot',
     title: 'Normalised sequencing data',
@@ -1895,5 +1903,13 @@ export default [
     layout: {margin: {t: 35, l: 170, r: 55, b: 190, pad: 4}},
     pennsieveId: 'package:c0836292-71c0-48fb-959d-1ead3e8fc198',
     thumbnailId: 'package:f7102f30-6b65-4152-83d4-6bbb782f4d79'
+  },
+  {
+    datasetId: 140,
+    type: 'plot',
+    title: 'Normalised sequencing data (filtered)',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 35, l: 170, r: 55, b: 190, pad: 4}},
+    pennsieveId: 'package:64356510-d05e-4c2f-a1c7-000322d4d4ea'
   }
 ]
