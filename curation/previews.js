@@ -23,35 +23,45 @@ export default [
   {
     datasetId: 141,
     type: 'plot',
-    metadata: {
-      version: '1.1.0',
-      type: 'plot',
-      attrs: {
-        style: 'timeseries',
-        delimiter: 'tab',
-        'y-axes-columns': [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
-        'no-header': true
-      }
-    },
-    title: 'this-is-a-test',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "delimiter": "tab", "y-axes-columns": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], "no-header": true}},
+    title: 'subject1',
     pennsieveId: 'package:615a5a08-f2f4-4621-a151-ba1271697aae',
-    thumbnailId: 'package:9aee14c8-8244-42d9-ad6a-63b7ecc19e6f',
     additionalId: 'package:b092a8c0-c684-4bb6-8383-f9de478473e8'
   },
   {
     datasetId: 141,
     type: 'plot',
-    title: 'subject3.txt',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "delimiter": "tab", "y-axes-columns": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "no-header": true}},
+    title: 'subject2',
+    pennsieveId: 'package:6f89589e-11c9-41fb-ba35-ba4f836a4453',
+    additionalId: 'package:743478cd-4be5-485a-82ad-5f7f1bd13c99'
+  },
+  {
+    datasetId: 141,
+    type: 'plot',
+    title: 'subject3',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "timeseries", "delimiter": "tab", "y-axes-columns": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "no-header": true}},
+    layout: {margin: {t: 400, l: 200, r: 100, b: 200, pad: 4}},
     pennsieveId: 'package:ea813c23-e110-46ba-815f-d134b955a8b5',
+    additionalId: 'package:79ff8e5d-7ca4-45a6-93a9-7f81027c9b1e'
   },
   {
     datasetId: 141,
     type: 'plot',
     title: 'RAGP_4subs_negddct_matrix',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap"}},
-    layout: {margin: {t: 35, l: 170, r: 55, b: 190, pad: 4}},
+    layout: {margin: {t: 400, l: 200, r: 100, b: 200, pad: 4}},
     pennsieveId: 'package:f3316fd4-6dcb-45d4-9b45-b4c3f8b8331d',
+    thumbnailId: 'package:c97775a9-d616-4a42-ac93-3dec503bb5c5'
+  },
+  {
+    datasetId: 141,
+    type: 'plot',
+    title: 'RAGP_4subs_raw_Ct',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    layout: {margin: {t: 400, l: 200, r: 100, b: 250, pad: 4}},
+    pennsieveId: 'package:ac7c976a-459a-4d32-ae43-09cd89340480',
+    thumbnailId: 'package:6ab78c2e-f66f-44bb-9d32-70070ce604c5'
   },
   {
     datasetId: 29,
