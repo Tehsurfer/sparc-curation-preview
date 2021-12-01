@@ -85,7 +85,7 @@ export default [
     datasetId: 139,
     type: 'plot',
     title: 'Average per strain',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true,}},
     pennsieveId: 'package:b220ef4d-deba-4541-a707-315340c6eb46',
     thumbnailId: 'package:d977ef0a-8c06-48ce-a153-badf9d546c93'
   },

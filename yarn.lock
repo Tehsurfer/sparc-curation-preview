@@ -101,10 +101,10 @@
     vuex "^3.5.1"
     webpack-node-externals "^2.5.2"
 
-"@abi-software/plotvuer@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@abi-software/plotvuer/-/plotvuer-0.3.2.tgz#88e3812d1bb4dd433bcf5e900c22d753be2d17da"
-  integrity sha512-OpXVQsHqmILq4gC9r4pSjNmrRrY/TPj/ljMqb0yZzHqIhJbb4YFlohyL3RkYEVhKbSr7Ss+MkD+beFz+c97E5g==
+"@abi-software/plotvuer@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@abi-software/plotvuer/-/plotvuer-0.3.5.tgz#3774dfca2cdb625ba3a202b31116ffc9e7b5aace"
+  integrity sha512-rjSi2JDMxjmNEiFp3B7lB0d97JPKiRQxZSgfSYOvsJfZg3Fd0PVHC49jBj2SrLjyLcOS/c7hwEP4SAWuf2HCsQ==
   dependencies:
     "@abi-software/svg-sprite" "^0.1.11"
     core-js "^3.7.0"
