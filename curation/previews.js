@@ -67,7 +67,7 @@ export default [
     datasetId: 29,
     type: 'plot',
     title: 'HB-ICN-NegDDCT',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
     layout: {margin: {t: 35, l: 170, r: 55, b: 250, pad: 4}},
     pennsieveId: 'package:975df3ca-ff23-4c50-829b-b28eba4f423a',
     thumbnailId: 'package:cbfda02a-e982-40fb-b7cb-8bb5c70e24d6'
