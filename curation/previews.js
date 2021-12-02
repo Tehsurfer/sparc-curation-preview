@@ -1912,7 +1912,7 @@ export default [
     title: 'Motility data',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:aff8ab67-8bd7-4b70-b4e5-f8b081a0a413'
+    pennsieveId: 'package:7ab9246f-004a-4d36-ad04-8594aa7f1021'
   },
   {
     datasetId: 123,
@@ -1920,6 +1920,6 @@ export default [
     title: 'Electrode Location data',
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:9609d32b-4fb8-4e26-860a-30a93b5b0d4c'
+    pennsieveId: 'package:e4b89211-7549-420c-9f0c-25de3cbf5315'
   }
 ]
