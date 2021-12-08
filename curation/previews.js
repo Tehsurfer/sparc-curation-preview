@@ -394,84 +394,96 @@ export default [
     type: 'plot',
     title: '20_0519',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:86a5d649-aa62-4b85-ba86-3fb91f1e0536'
+    pennsieveId: 'package:86a5d649-aa62-4b85-ba86-3fb91f1e0536',
+    thumbnailId: 'package:9cc42883-fed8-48ee-ad61-45f3ae1c46c9'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '20_0520',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:d5ffdbbd-ea3f-4d99-b0d4-eb6d73024718'
+    pennsieveId: 'package:d5ffdbbd-ea3f-4d99-b0d4-eb6d73024718',
+    thumbnailId: 'package:ce60b66c-d2ea-4865-8dcb-6f21f1fac63c'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '20_0521',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:e7c8ce5e-0ab8-4846-b735-9dd0c02f23fc'
+    pennsieveId: 'package:e7c8ce5e-0ab8-4846-b735-9dd0c02f23fc',
+    thumbnailId: 'package:8dc48f41-e8d7-4ca1-9fd1-6c5d64666ae0'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '20_0309',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:feecada3-f260-457e-bdf1-b94b9d266993'
+    pennsieveId: 'package:feecada3-f260-457e-bdf1-b94b9d266993',
+    thumbnailId: 'package:389565e4-0201-4f2f-a6fa-034ce284e073'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '20_0515',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:2bca1135-9d0d-4363-b7d9-cab61e213fa4'
+    pennsieveId: 'package:2bca1135-9d0d-4363-b7d9-cab61e213fa4',
+    thumbnailId: 'package:c3d07963-93de-422e-8835-ecedd7bd3b8c'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '20_0518',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:283cca60-c68e-4b71-82e1-4bd4939ed081'
+    pennsieveId: 'package:283cca60-c68e-4b71-82e1-4bd4939ed081',
+    thumbnailId: 'package:7f2bd123-c566-4be9-b686-1ea59825c2dc'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '19_1018',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:7ea44bac-a1fa-4b9e-bbf9-b5e2d8591cb8'
+    pennsieveId: 'package:7ea44bac-a1fa-4b9e-bbf9-b5e2d8591cb8',
+    thumbnailId: 'package:748795a5-06ea-482c-94cf-692c8e2d2ca2'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '20_0303',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:a293394d-d999-4011-8154-ef0bcf342d77'
+    pennsieveId: 'package:a293394d-d999-4011-8154-ef0bcf342d77',
+    thumbnailId: 'package:1e0c811f-6346-4ec7-aab9-d69821878abb'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '20_0324',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:d2a06d39-5b72-4afe-a71b-a14d9a925ca9'
+    pennsieveId: 'package:d2a06d39-5b72-4afe-a71b-a14d9a925ca9',
+    thumbnailId: 'package:735cf422-3321-4393-8827-9a0d22264275'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '19_0829',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:7826fa03-bf6f-4023-9140-94f366ddb0ad'
+    pennsieveId: 'package:7826fa03-bf6f-4023-9140-94f366ddb0ad',
+    thumbnailId: 'package:8e2577e2-62a4-4a39-9142-7f2694e765e7'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '19_0917',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:757c7420-80c0-4896-b0e0-393e0740334a'
+    pennsieveId: 'package:757c7420-80c0-4896-b0e0-393e0740334a',
+    thumbnailId: 'package:1a0a1fc1-a83a-41ea-966f-6679da79d861'
   },
   {
     datasetId: 126,
     type: 'plot',
     title: '19_1016',
     metadata: { "version": "1.1.0", "type": "plot", "attrs": { "style": "timeseries" } },
-    pennsieveId: 'package:3b88c0d9-d1b4-424c-9f0d-d8a0a4b8b182'
+    pennsieveId: 'package:3b88c0d9-d1b4-424c-9f0d-d8a0a4b8b182',
+    thumbnailId: 'package:9ecf4d51-fa52-4d2b-9dad-f697e4f387e8'
   },
   {
     datasetId: 114,
