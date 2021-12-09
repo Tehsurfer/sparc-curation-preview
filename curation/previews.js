@@ -1933,13 +1933,5 @@ export default [
     metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:e4b89211-7549-420c-9f0c-25de3cbf5315'
-  },
-  {
-    datasetId: 150,
-    type: 'plot',
-    title: 'test',
-    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
-    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:75f78543-94b7-41ad-8a14-429ba5f29269'
   }
 ]
