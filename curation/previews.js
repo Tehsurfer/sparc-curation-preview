@@ -2239,5 +2239,86 @@ export default [
     pennsieveId: 'package:86597f87-5eba-4fa3-9084-820cc88847e0',
     thumbnailId: 'package:ca9be7ef-862c-4580-9265-a34fd595acbb',
     additionalId: 'package:a2f32b92-d2cb-4773-a6f4-e983d21bdb72'
+  },
+  {
+    datasetId: 150,
+    type: 'plot',
+    title: 'stim_300us_5mA_PT_wAB_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:99b4c68d-b2e9-4ffe-9ab5-9baa0907c5d1',
+    thumbnailId: 'package:7ff6ed5f-edb6-47e9-8a53-15fd6eac61fe'
+  },
+  {
+    datasetId: 150,
+    type: 'plot',
+    title: 'stim_300us_5mA_PT_wEB_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:0ceba4ba-bc71-4c73-9295-1705fe8a8719',
+    thumbnailId: 'package:e504e6ea-7618-4746-a51a-8930f5f5ba73'
+  },
+  {
+    datasetId: 150,
+    type: 'plot',
+    title: 'stim_300us_5mA_PT_wOB_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:f0264826-4b1a-4061-98de-bf63bfa43e15',
+    thumbnailId: 'package:4782cd0e-7eba-4fbb-ae95-597056267648'
+  },
+  {
+    datasetId: 150,
+    type: 'plot',
+    title: 'stim_4 ms_5mA_PT_wAB_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:584d8729-4569-4223-9d55-886209e8dc94',
+    thumbnailId: 'package:afafff17-d4dc-47d3-95ed-f3d5061ecf74'
+  },
+  {
+    datasetId: 150,
+    type: 'plot',
+    title: 'stim_4ms_5mA_PT_woB_Y1_manometry.',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:44afbab2-e508-422d-ba45-771d36115e01',
+    thumbnailId: 'package:9f8b67f4-7323-4e64-8d4f-e1c571296623'
+  },
+  {
+    datasetId: 150,
+    type: 'plot',
+    title: 'stim_4ms_5mA_PT_wEB_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:0364b9c8-ea2f-4afe-9e12-ea78efac3a95',
+    thumbnailId: 'package:15c71d1b-e53d-4672-ab01-a0839160d97a'
+  },
+  {
+    datasetId: 150,
+    type: 'plot',
+    title: 'stim_4ms_5mA_PT_woB_Y2_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:bbf045ad-e3f2-454d-8085-7637ee07cbe8',
+    thumbnailId: 'package:8f24d621-48e9-4fb1-be68-46807bee4fb4'
+  },
+  {
+    datasetId: 150,
+    type: 'plot',
+    title: 'stim_4ms_5mA_continuous_woB_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:aee53315-1557-4ce8-a4d7-b44c380c143d',
+    thumbnailId: 'package:85d0c8a4-1d3e-453b-990b-9ba1a987c726'
+  },
+  {
+    datasetId: 150,
+    type: 'plot',
+    title: 'stim_4ms_5mA_SW_woB_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:e09425d1-f793-4daf-9201-88a71669f749',
+    thumbnailId: 'package:fcdafe51-ea1d-44f7-94bf-3c31fe9dda4d'
   }
 ]
