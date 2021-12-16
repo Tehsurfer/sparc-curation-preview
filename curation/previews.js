@@ -2320,5 +2320,32 @@ export default [
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:e09425d1-f793-4daf-9201-88a71669f749',
     thumbnailId: 'package:fcdafe51-ea1d-44f7-94bf-3c31fe9dda4d'
+  },
+  {
+    datasetId: 34,
+    type: 'plot',
+    title: 'stim_proximal-colon_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:5c51dc5c-58af-46e2-a8f7-ecb4f36329ef',
+    thumbnailId: 'package:1b3d1d00-1c74-45b6-b4c7-73078b633039'
+  },
+  {
+    datasetId: 34,
+    type: 'plot',
+    title: 'stim_distal-colon_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:27259d18-c03c-46fd-8f48-20f78c125cfd',
+    thumbnailId: 'package:80f1739a-7745-4217-a42f-8627c774d52a'
+  },
+  {
+    datasetId: 34,
+    type: 'plot',
+    title: 'stim_transverse-colon_manometry',
+    metadata: {"version": "1.1.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:9f571560-f2d9-4676-bcce-88ac14c771b5',
+    thumbnailId: 'package:4a90dafa-b392-47d7-a706-e080ff6f8fa1'
   }
 ]
