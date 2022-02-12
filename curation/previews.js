@@ -2346,5 +2346,14 @@ export default [
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:9f571560-f2d9-4676-bcce-88ac14c771b5',
     thumbnailId: 'package:4a90dafa-b392-47d7-a706-e080ff6f8fa1'
+  },
+  {
+    datasetId: 46,
+    type: 'plot',
+    title: 'Experiment2_Meal-size',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:e55b0ca3-e2b1-4de9-9429-714b9e680df8',
+    thumbnailId: 'package:75cf89ce-b06a-42b7-9848-9727273099c0'
   }
 ]
