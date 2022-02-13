@@ -2355,5 +2355,50 @@ export default [
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:e55b0ca3-e2b1-4de9-9429-714b9e680df8',
     thumbnailId: 'package:75cf89ce-b06a-42b7-9848-9727273099c0'
+  },
+  {
+    datasetId: 46,
+    type: 'plot',
+    title: 'Experiment1_Meal-size',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:eadd037e-8680-48e6-b39b-30da8abab67a',
+    thumbnailId: 'package:b15a2937-fe82-43bf-97f7-ab61a3326879'
+  },
+  {
+    datasetId: 46,
+    type: 'plot',
+    title: 'Experiment1_Daily-intake',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:c2d959f7-a604-40f6-b0fb-d54d5cf85701',
+    thumbnailId: 'package:9de0d38a-059b-42ec-a6ef-f4cc64cc7ccc'
+  },
+  {
+    datasetId: 46,
+    type: 'plot',
+    title: 'Experiment1_Number-of-meals',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:04e261d0-e742-4186-8fae-61ea58f6f210',
+    thumbnailId: 'package:1a2f499a-ae35-4883-a4a2-19dfeea8fefd'
+  },
+  {
+    datasetId: 46,
+    type: 'plot',
+    title: 'Experiment2_Daily-intake',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:e5e7799f-32b2-4d47-b9b6-0bea9d3008a9',
+    thumbnailId: 'package:985b706c-f81f-46d1-928a-fdf5f290349e'
+  },
+  {
+    datasetId: 46,
+    type: 'plot',
+    title: 'Experiment2_Number-of-meals',
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
+    pennsieveId: 'package:eedff3cb-aeb8-4f31-9271-a3a0912ff9e5',
+    thumbnailId: 'package:edb079fa-36d4-41b9-bb16-c2bfd325d992'
   }
 ]
