@@ -121,7 +121,7 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:7b1a5fe7-c8de-4c29-8c69-69b8186ccffe',
-    thumbnailId: 'package:af55ea97-5789-4113-852d-9e5a277cb4e6'
+    thumbnailId: 'package:92bb7cd2-f9f8-4979-9332-c825fdf58972'
   },
   {
     datasetId: 116,
@@ -130,7 +130,7 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:f13a41ae-edd7-408c-89f5-477a23be9591',
-    thumbnailId: 'package:8ad4b25c-e979-4f88-8a42-71f8c0f5f309'
+    thumbnailId: 'package:9f5eb94e-4ddd-48fc-8771-a00d7de04c0d'
   },
   {
     datasetId: 115,
