@@ -118,7 +118,7 @@ export default [
     datasetId: 116,
     type: 'plot',
     title: 'PR1643-142 Samples Raw Gene Counts',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:7b1a5fe7-c8de-4c29-8c69-69b8186ccffe',
     thumbnailId: 'package:af55ea97-5789-4113-852d-9e5a277cb4e6'
@@ -127,7 +127,7 @@ export default [
     datasetId: 116,
     type: 'plot',
     title: 'PR1643 Normalised Gene Counts',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:f13a41ae-edd7-408c-89f5-477a23be9591',
     thumbnailId: 'package:8ad4b25c-e979-4f88-8a42-71f8c0f5f309'
@@ -136,7 +136,7 @@ export default [
     datasetId: 119,
     type: 'plot',
     title: 'RAGP_4subs_final_negddct_matrix',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:dc315029-255d-4c41-86de-4b857d6149a9',
     thumbnailId: 'package:c68657f2-383d-467d-a98e-6bfd98694935'
@@ -145,7 +145,7 @@ export default [
     datasetId: 119,
     type: 'plot',
     title: 'RAGP_4subs_negdct',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:3df73fd7-2903-4880-80c6-ceb8f9b061ef',
     thumbnailId: 'package:1fa4bf27-a49d-4b04-8eb2-dbebad2d88d9'
@@ -154,7 +154,7 @@ export default [
     datasetId: 119,
     type: 'plot',
     title: 'RAGP_4subs_negddct',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:156174dc-06e4-4b35-9ffa-2c4f01c91ba4',
     thumbnailId: 'package:468e45e5-00fc-4b7b-a822-7e9b4f77296a'
@@ -163,7 +163,7 @@ export default [
     datasetId: 119,
     type: 'plot',
     title: 'RAGP_4subs_raw_Ct',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:ac7c976a-459a-4d32-ae43-09cd89340480',
     thumbnailId: 'package:6ab78c2e-f66f-44bb-9d32-70070ce604c5'
