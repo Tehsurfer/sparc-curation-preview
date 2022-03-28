@@ -2423,7 +2423,8 @@ export default [
     title: 'Day 2 Trial 2',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:121c3111-0b00-4b23-bd54-376bff1012af'
+    pennsieveId: 'package:121c3111-0b00-4b23-bd54-376bff1012af',
+    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d'
   },
   {
     datasetId: 120,
@@ -2431,7 +2432,8 @@ export default [
     title: 'Day 3 Trial 2',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:d9a18eb6-e1f6-4007-bd6c-eb71f43315f3'
+    pennsieveId: 'package:d9a18eb6-e1f6-4007-bd6c-eb71f43315f3',
+    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d'
   },
   {
     datasetId: 120,
@@ -2439,7 +2441,8 @@ export default [
     title: 'Day 4 Trial 2',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:afd31d24-5532-48c9-ba93-3161edbb298f'
+    pennsieveId: 'package:afd31d24-5532-48c9-ba93-3161edbb298f',
+    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d'
   },
   {
     datasetId: 120,
@@ -2447,7 +2450,8 @@ export default [
     title: 'Day 8 trial 1',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:2ceb647f-a792-42c9-9360-746536d83c88'
+    pennsieveId: 'package:2ceb647f-a792-42c9-9360-746536d83c88',
+    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d'
   },
   {
     datasetId: 120,
@@ -2455,7 +2459,8 @@ export default [
     title: 'Day 9 Trial 1',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:93a75b56-e4fd-43bb-85b3-18b7502942a8'
+    pennsieveId: 'package:93a75b56-e4fd-43bb-85b3-18b7502942a8',
+    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d'
   },
   {
     datasetId: 120,
