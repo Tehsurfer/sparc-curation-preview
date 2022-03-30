@@ -2601,15 +2601,15 @@ export default [
     type: 'plot',
     title: 'Bipolar recording',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
-    pennsieveId: 'package:1dfba728-8f63-44c3-be0d-f8c88017f5ee',
-    thumbnailId: 'package:db3d651b-cdf8-49a3-8e7b-bc09f5d67f1d'
+    pennsieveId: 'package:db3d651b-cdf8-49a3-8e7b-bc09f5d67f1d',
+    thumbnailId: 'package:2766b8ea-af11-4d53-9d2d-0f26191a387c'
   },
   {
     datasetId: 188,
     type: 'plot',
     title: 'Fascicle stimulus',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
-    pennsieveId: 'package:45af6235-e90b-4b53-ad72-595731d1e1df',
-    thumbnailId: 'package:efbe2edd-0e02-4e82-9ada-f7d66d0135b6'
+    pennsieveId: 'package:efbe2edd-0e02-4e82-9ada-f7d66d0135b6',
+    thumbnailId: 'package:8bf4501c-af74-4502-b3e3-c7775f30013f'
   }
 ]
