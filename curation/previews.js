@@ -2601,7 +2601,7 @@ export default [
     type: 'plot',
     title: 'Bipolar recording',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "heatmap", "logScale": true, "layout": {"margin": {"t": 55, "l": 200, "r": 55, "b": 200, "pad": 4}}}},
-    pennsieveId: 'package:db3d651b-cdf8-49a3-8e7b-bc09f5d67f1d',
+    pennsieveId: 'package:2d79bf7b-828c-4c84-aae8-860c393fb8ba',
     thumbnailId: 'package:2766b8ea-af11-4d53-9d2d-0f26191a387c'
   },
   {
