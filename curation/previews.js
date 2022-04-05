@@ -2372,7 +2372,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:80d976d7-9ce8-4130-b57a-564dee656b93',
-    additionalId: 'package:8536a791-42ca-423d-bff1-b77be88ebab8'
+    additionalId: 'package:8536a791-42ca-423d-bff1-b77be88ebab8',
+    thumbnailId: 'package:8d8c4e6f-a0eb-4f5a-853a-26e853e441c1'
   },
   {
     datasetId: 120,
@@ -2381,7 +2382,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:96d6be65-ea03-4cff-b78b-70ca8237b94f',
-    additionalId: 'package:71df21e6-98ff-42b3-862a-2239e1379665'
+    additionalId: 'package:71df21e6-98ff-42b3-862a-2239e1379665',
+    thumbnailId: 'package:ccaeed78-4b14-4527-b187-8818cf9d7108'
   },
   {
     datasetId: 120,
@@ -2390,7 +2392,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:4b414cd9-a384-4fdd-affe-f38c5c617d27',
-    additionalId: 'package:f0c95e17-0370-4a72-9792-b2e6723ddc08'
+    additionalId: 'package:f0c95e17-0370-4a72-9792-b2e6723ddc08',
+    thumbnailId: 'package:1755221e-f8b5-48a5-80b1-b7a5deb0e7af'
   },
   {
     datasetId: 120,
@@ -2399,7 +2402,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:ad552b7b-6565-4e23-bcc3-ccc7e18accc4',
-    additionalId: 'package:f0c95e17-0370-4a72-9792-b2e6723ddc08'
+    additionalId: 'package:f0c95e17-0370-4a72-9792-b2e6723ddc08',
+    thumbnailId: 'package:27827767-2dbf-4528-9bfc-ee31f27aa91e'
   },
   {
     datasetId: 120,
@@ -2407,7 +2411,8 @@ export default [
     title: 'Cat 7.3 UDS run 1',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:d2ef504d-00a9-42b6-8bab-a4f755fdc179'
+    pennsieveId: 'package:d2ef504d-00a9-42b6-8bab-a4f755fdc179',
+    thumbnailId: 'package:bb794820-bd19-4e90-a0bd-7ee607fd819a'
   },
   {
     datasetId: 120,
@@ -2415,7 +2420,8 @@ export default [
     title: 'Cat 7.3 UDS run 2',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:9cb36924-23f4-4819-bea8-ee44dd562a79'
+    pennsieveId: 'package:9cb36924-23f4-4819-bea8-ee44dd562a79',
+    thumbnailId: 'package:862d7807-5926-4def-9f4f-03d9533db358'
   },
   {
     datasetId: 120,
@@ -2424,7 +2430,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:121c3111-0b00-4b23-bd54-376bff1012af',
-    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d'
+    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d',
+    thumbnailId: 'package:b87ab44e-bbf3-49de-b5f6-3f182b27067c'
   },
   {
     datasetId: 120,
@@ -2433,7 +2440,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:d9a18eb6-e1f6-4007-bd6c-eb71f43315f3',
-    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d'
+    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d',
+    thumbnailId: 'package:bbf2808f-ad0e-434a-a8c6-6357577a2952'
   },
   {
     datasetId: 120,
@@ -2442,7 +2450,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:afd31d24-5532-48c9-ba93-3161edbb298f',
-    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d'
+    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d',
+    thumbnailId: 'package:063fbb23-ce30-461f-a377-fa906eceef2c'
   },
   {
     datasetId: 120,
@@ -2451,7 +2460,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:2ceb647f-a792-42c9-9360-746536d83c88',
-    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d'
+    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d',
+    thumbnailId: 'package:7d02ee69-7af3-453e-ac96-be0eddc2fa53'
   },
   {
     datasetId: 120,
@@ -2460,7 +2470,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:93a75b56-e4fd-43bb-85b3-18b7502942a8',
-    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d'
+    additionalId: 'package:79a0d7d8-af06-4b61-98fb-80114ee9da7d',
+    thumbnailId: 'package:539f3d7c-97fc-4c0c-8ca4-aacefaffdd0c'
   },
   {
     datasetId: 120,
@@ -2469,7 +2480,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:d1ffcd87-b0ad-4854-9ad4-cb245eaa3a52',
-    additionalId: 'package:02944b92-1079-4d7a-9755-2ec9849a26be'
+    additionalId: 'package:02944b92-1079-4d7a-9755-2ec9849a26be',
+    thumbnailId: 'package:c90438c4-63d7-4d4e-a178-e0af18b5a9e8'
   },
   {
     datasetId: 120,
@@ -2478,7 +2490,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3, 4], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:1ec8d252-2f14-41c3-86b7-cd89f0138053',
-    additionalId: 'package:df77604f-d96c-4abe-a2aa-524ee1dc4349'
+    additionalId: 'package:df77604f-d96c-4abe-a2aa-524ee1dc4349',
+    thumbnailId: 'package:8860e3c5-c21d-4f6c-899d-56661971d9fb'
   },
   {
     datasetId: 120,
@@ -2487,7 +2500,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3, 4], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:ff66bc6a-ff1d-4bb9-b02c-3d902cb65496',
-    additionalId: 'package:865318e3-4281-4a33-ae4e-acd277ca2536'
+    additionalId: 'package:865318e3-4281-4a33-ae4e-acd277ca2536',
+    thumbnailId: 'package:7b6444ea-3458-44da-a717-b9eb185299ec'
   },
   {
     datasetId: 120,
@@ -2496,7 +2510,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3, 4], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:074cd5d7-803a-4592-8cd7-31d410cb89c3',
-    additionalId: 'package:ea3d5f4e-063b-488f-81ca-d1e460471bda'
+    additionalId: 'package:ea3d5f4e-063b-488f-81ca-d1e460471bda',
+    thumbnailId: 'package:f1d43baf-1647-442f-b6f8-d378f7408a25'
   },
   {
     datasetId: 120,
@@ -2505,7 +2520,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3, 4], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:f0c4ed0d-68b2-4428-bc1c-911822387ffb',
-    additionalId: 'package:ea3d5f4e-063b-488f-81ca-d1e460471bda'
+    additionalId: 'package:ea3d5f4e-063b-488f-81ca-d1e460471bda',
+    thumbnailId: 'package:c90438c4-63d7-4d4e-a178-e0af18b5a9e8'
   },
   {
     datasetId: 120,
@@ -2514,7 +2530,8 @@ export default [
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3, 4], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:cc56f99f-6f7b-4b54-bb89-140378bd089d',
-    additionalId: 'package:ea3d5f4e-063b-488f-81ca-d1e460471bda'
+    additionalId: 'package:ea3d5f4e-063b-488f-81ca-d1e460471bda',
+    thumbnailId: 'package:abd707d1-2008-43f6-8e2d-a4e972d7560a'
   },
   {
     datasetId: 120,
@@ -2522,7 +2539,8 @@ export default [
     title: 'Cat8.3_Urodynamics1',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3, 4]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:3b02b72a-d7a6-49fa-8c9d-ae0894597b69'
+    pennsieveId: 'package:3b02b72a-d7a6-49fa-8c9d-ae0894597b69',
+    thumbnailId: 'package:7070724f-24e5-4bd1-a77b-b07de0d423ab'
   },
   {
     datasetId: 120,
@@ -2530,7 +2548,8 @@ export default [
     title: 'Cat8.3_Urodynamics2',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3, 4]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:d7eb14f3-007f-40ed-8989-0e5d34730286'
+    pennsieveId: 'package:d7eb14f3-007f-40ed-8989-0e5d34730286',
+    thumbnailId: 'package:049e5add-6f5b-4b69-b4bf-7bd977c99431'
   },
   {
     datasetId: 120,
@@ -2538,7 +2557,8 @@ export default [
     title: 'Cat8 11 Days Post Op',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3, 4, 5, 6, 7, 8]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:0b7493ff-5991-4b3b-af7b-cc2b9597f19f'
+    pennsieveId: 'package:0b7493ff-5991-4b3b-af7b-cc2b9597f19f',
+    thumbnailId: 'package:8f9864dc-85d9-42ae-a9eb-5d2365bcfb39'
   },
   {
     datasetId: 120,
@@ -2546,7 +2566,8 @@ export default [
     title: 'Cat8 3 Days Post Op',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3, 4, 5, 6, 7, 8]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:921589cd-6008-46b6-a985-ea34173eac18'
+    pennsieveId: 'package:921589cd-6008-46b6-a985-ea34173eac18',
+    thumbnailId: 'package:d199bf3a-a256-44cf-ac21-bf271fec52b1'
   },
   {
     datasetId: 120,
@@ -2554,7 +2575,8 @@ export default [
     title: 'Cat9.1_Urodynamics1',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:e1ef37a5-f39c-4a0d-b581-1dc78178d8b9'
+    pennsieveId: 'package:e1ef37a5-f39c-4a0d-b581-1dc78178d8b9',
+    thumbnailId: 'package:61332bb8-5673-4725-bc62-b8d00197d914'
   },
   {
     datasetId: 120,
@@ -2562,7 +2584,8 @@ export default [
     title: 'Cat9.1_Urodynamics1A',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:fce5e7df-ad62-4589-8981-6cff5cc9e489'
+    pennsieveId: 'package:fce5e7df-ad62-4589-8981-6cff5cc9e489',
+    thumbnailId: 'package:98249ab5-28fe-4f13-8d8f-78e87f6fb9fc'
   },
   {
     datasetId: 120,
@@ -2570,7 +2593,8 @@ export default [
     title: 'Cat9.1_Urodynamics2',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1, 2, 3, 4]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:0812b030-449e-4ff1-8f66-910ed6142581'
+    pennsieveId: 'package:0812b030-449e-4ff1-8f66-910ed6142581',
+    thumbnailId: 'package:98087291-9927-4786-8074-36bd2871cb9e'
   },
   {
     datasetId: 120,
@@ -2578,23 +2602,26 @@ export default [
     title: 'Cat9.2_Urodynamics1',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:36396a56-d76c-4f8e-9e69-d085e0fac74d'
+    pennsieveId: 'package:36396a56-d76c-4f8e-9e69-d085e0fac74d',
+    thumbnailId: 'package:0ac6e66d-f159-45e8-85eb-a5d4665318f8'
   },
   {
     datasetId: 120,
     type: 'plot',
-    title: 'Cat9.3_Urodynamics1',
+    title: 'Cat9.3_Cystometry1',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:e63e5d98-528c-4eeb-9926-701ba4697b12'
+    pennsieveId: 'package:e63e5d98-528c-4eeb-9926-701ba4697b12',
+    thumbnailId: 'package:539d2ac1-03c3-47a4-9209-bb29f19e320d'
   },
   {
     datasetId: 120,
     type: 'plot',
-    title: 'Cat9.3_Urodynamics2',
+    title: 'Cat9.3_Cystometry2',
     metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1]}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
-    pennsieveId: 'package:26d41b00-7b6f-4bb0-a290-ddbc943ef0e3'
+    pennsieveId: 'package:26d41b00-7b6f-4bb0-a290-ddbc943ef0e3',
+    thumbnailId: 'package:11ed0e68-4651-4fc2-ade4-b09adedf720c'
   },
   {
     datasetId: 188,
