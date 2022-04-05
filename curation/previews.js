@@ -2466,7 +2466,7 @@ export default [
     datasetId: 120,
     type: 'plot',
     title: 'Cat8_Urodynamics1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1]}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 0, "y-axes-columns": [1], "no-header": true}},
     layout: {margin: {t: 55, l: 200, r: 55, b: 200, pad: 4}},
     pennsieveId: 'package:d1ffcd87-b0ad-4854-9ad4-cb245eaa3a52',
     additionalId: 'package:02944b92-1079-4d7a-9755-2ec9849a26be'
