@@ -2643,7 +2643,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ses1_cat1_fill1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:e6c91af4-23dc-4f42-85ce-48c790f6b508',
     thumbnailId: 'package:29e6fa0b-0c66-4773-8d9e-f8a53ac8aa20'
   },
@@ -2651,7 +2651,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ses1_cat1_fill2',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:945be1f0-31b2-4ea0-a9a0-b16042b126fb',
     thumbnailId: 'package:dc8cb778-fa5e-4603-9e34-d070bc284d18'
   },
@@ -2659,7 +2659,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ses1_cat1_postFill',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:d0e6adb0-5dc4-44e0-9750-0a35fce7a306',
     thumbnailId: 'package:b78745be-93d0-4a34-a763-e4e8b3af298d'
   },
@@ -2667,7 +2667,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ses1_cat1_fill1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:b5811ced-55fb-4c8c-9520-511d7ad09617',
     thumbnailId: 'package:c294fe78-42ac-452e-8a61-360993687aed'
   },
@@ -2675,7 +2675,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ses1_cat1_fill2',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:4e8dac59-6cdb-40cf-a010-a3239366b9aa',
     thumbnailId: 'package:71d954d3-1f2a-4a4a-946c-9b2f9942dd71'
   },
@@ -2683,7 +2683,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ses2_cat1_fill2',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:423cfa79-e587-4c75-9de1-c782f5279d7f',
     thumbnailId: 'package:90c5e51e-47e9-4298-8c28-c2b812f5b849'
   },
@@ -2691,7 +2691,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ses2_cat1_fill1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:c0f4bb9c-69cd-41f7-be80-d1d50f85b5ff',
     thumbnailId: 'package:62137c1a-77ce-4456-bb05-9a4f66fd767a'
   },
@@ -2699,7 +2699,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ses3_cat1_fill2',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:16a68a7b-43b7-44df-b6cd-9bceeb672fae',
     thumbnailId: 'package:57b9a3f7-59e1-41cb-8881-da35293fec9a'
   },
@@ -2707,7 +2707,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ses3_cat1_fill1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:92a240cf-398d-4be1-b8a7-460f33bd2c51',
     thumbnailId: 'package:bd385a45-d1c9-4454-b6ff-43e3d92b2fe4'
   },
@@ -2715,7 +2715,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat3.1_PreOP',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:1c17c682-e2b9-4133-8b85-8514a34a3b9b',
     thumbnailId: 'package:d04e2d0a-1619-45ae-baad-e9d3d3abf1a4'
   },
@@ -2723,7 +2723,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat3.1_PostOP',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:27d06ed4-9213-4998-b3f1-8f9e3838a78c',
     thumbnailId: 'package:384fde54-7965-43c1-bbcf-4be3f3d78927'
   },
@@ -2731,7 +2731,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat3.2_fill2',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:8bdd898e-9651-4004-9552-b62e4320e941',
     thumbnailId: 'package:6381f06b-03ae-4615-a7ed-05cdb40750c1'
   },
@@ -2739,7 +2739,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat3.2_fill1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:77b73911-cb68-47cd-80ab-3a75faab8bc1',
     thumbnailId: 'package:54ab98ce-c7b5-4e30-9eab-86b4373a9ad5'
   },
@@ -2747,7 +2747,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat3.3_PostOPDay30',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:53f7411f-7dec-4f87-ae77-e2fa3bee15f3',
     thumbnailId: 'package:33bda4d7-3ea2-489f-a945-a6c3e283e4ad'
   },
@@ -2755,7 +2755,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat2.3_fill1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:19694b51-ece7-4684-8be1-25962a1aa905',
     thumbnailId: 'package:922958e8-74d0-491f-a1f1-7cc82e0c7e9d'
   },
@@ -2763,7 +2763,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat2.3_fill2',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:2f9dc2ff-6cb8-4f42-b722-257a93802672',
     thumbnailId: 'package:d690988c-5743-4ac3-b6b9-e6e878b0e0ed'
   },
@@ -2771,7 +2771,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat2.1_PostOP',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:27a5ab42-4b1c-4b9c-90c2-0019e7f8a871',
     thumbnailId: 'package:35ad545f-69d3-4bb8-81ea-ee8400171b42'
   },
@@ -2779,7 +2779,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat2.1_PreOP',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:3e2d7ccb-5a09-4603-8963-2740021b1ee8',
     thumbnailId: 'package:5832a1e9-bf93-423e-b006-25b80f10326f'
   },
@@ -2787,7 +2787,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat2.2_fill1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:4bc1a212-4181-4b90-8284-853dfa96fbfe',
     thumbnailId: 'package:83f14e0a-a6b2-4e77-be9d-95f592ca4f6a'
   },
@@ -2795,7 +2795,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat2.2_fill2',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries"}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:1e5068f8-713b-41d3-8971-1e88d8ea9c6a',
     thumbnailId: 'package:30d72a4b-bf22-4a3a-abb1-d3506bc04993'
   },
@@ -2803,7 +2803,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat4.3_fill2',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true, "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:75f8aff0-036d-43da-b5e4-f5529f500eb2',
     thumbnailId: 'package:a84a74dd-a9c8-43ee-82b1-26107e74ec0c',
     additionalId: 'package:0dfa5227-f9d1-4458-b204-ff1c23d2fb7f'
@@ -2812,7 +2812,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat4.3_fill1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true, "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:69cfce9d-3a32-4f07-86e9-3eefae9f9852',
     thumbnailId: 'package:088bd5c0-e744-4904-bd13-c64a9d077538',
     additionalId: 'package:9d158cd2-4832-40e6-a7a3-67467fa9eefc'
@@ -2821,7 +2821,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat4.2_fill2',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true, "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:ccb90d56-1482-4085-b3e0-9ae1cd2e7ae1',
     thumbnailId: 'package:388e7d68-8e76-49f9-9f24-1373f01b06af',
     additionalId: 'package:bf9cb636-9efb-4b75-9a7e-a01b3718bcf6'
@@ -2830,7 +2830,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'Cat4.2_fill1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true, "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:e2a419e6-b32c-415f-b224-52e828510229',
     thumbnailId: 'package:98492754-6509-470f-9dac-dbe20ef88f13',
     additionalId: 'package:c4bc18da-fc84-4913-942c-47980e7a634b'
@@ -2839,7 +2839,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ChronicCat_1.1.1',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true, "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:75fe41ad-61a4-4265-bda2-980dfb961338',
     thumbnailId: 'package:caa333ed-599e-4801-b18c-49145c9bdd2c',
     additionalId: 'package:9478768a-f62b-4046-aa89-2a5bb7190dbc'
@@ -2848,7 +2848,7 @@ export default [
     datasetId: 145,
     type: 'plot',
     title: 'ChronicCat_1.1.2',
-    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true}},
+    metadata: {"version": "1.2.0", "type": "plot", "attrs": {"style": "timeseries", "no-header": true, "x-axis": 1, "y-axes-columns": [2, 3]}},
     pennsieveId: 'package:81b6f432-4521-4bc9-87a0-4f7cfd810676',
     thumbnailId: 'package:03174292-5b29-4bfe-8e12-e100270a41ab',
     additionalId: 'package:145ddcf7-ca3e-4845-bcbd-e87467abcc27'
